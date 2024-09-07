@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    background-color: papayawhip;
+}
+.container {
+    margin: 20px;
+    background-color: rosybrown;
+    border: 1px solid navy;
+    height: 200px;
+    border-radius: 5px;
+    width: 90%;
+}
+.task {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.item {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px gray;
+    background-color: firebrick;
+    text-align: center;
+}
+
+/* Task 1 */
+.task-1, .container {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+/* Task 2 */
+.task-2, .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Task 3 */
+.task-3, .container{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+.sm {
+    width: 20px;
+}
+.lg {
+    width: 90px;
+}
+
+/* Task 4 */
+.task-4 .option-1, .container {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* justify-content: start; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+}
+.task-4 .option-2, .container {
+    display: flex;
+}
+.task-4 .option-2 .space {
+    flex-grow: 1;
+}
+.task-4 .option-3 .container {
+    display: flex;
+}
+.task-4 .option-3 .item:first-child {
+    flex-grow: 4;
+}
+
+/* Task 5 */
+.task-5, .container {
+    display: flex;
+}
+.task-5 .item-1 {
+    flex: 1;
+    /* grow shrink basis 1 1 0 */
+}
+.task-5 .item-2 {
+    flex-shrink: 1;
+    /* grow shrink basis 1 1 0 */
+}
+.task-5 .item-3 {
+    flex: 2;
+    /* grow shrink basis 1 1 0 */
+}
+.task-5 .item-4 {
+    flex: 1;
+    /* grow shrink basis 1 1 0 */
+}
+
+/* Task 6 */
+.task-6 .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.task-6 .item {
+    width: 50%;
+}
+@media (min-width : 375px) {
+    .task-6 .item {
+        display: flex;
+        width: 25%;
+    }
+}
+@media (min-width : 900px) {
+    .task-6 .item {
+        display: flex;
+        width: 50%;
+    }
+}
+
+/* Task 7 */
+.task-7 .container {
+    display: flex;
+}
+.task-7 .item-1 {
+    order: 1;
+    /* order: -1; */
+}
+.task-7 .item-3 {
+    order: 2;
+    /* order: -1; */
+}
+
+/* Task 8 */
+.task-8 .container {
+    display: flex;
+}
+.task-8 .item-3 {
+    align-self: flex-end;
+    /* align-self: start; */
+    /* align-self: flex-start; */
+}
