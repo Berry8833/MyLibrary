@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: darkmagenta;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /* apply styles to <header> */
+  header {
+    padding: 20px 35px;
+    background-color: orange;
+  }
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    margin: 0;
+    display: inline;
+  }
+  header a {
+    text-decoration: none;
+    color: darkgreen;
+  }
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  header nav ul li {
+    display: inline;
+  }
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+  section {
+    padding: 60px;
+  }
+  /* hero style start */
+  .hero {
+    background-image: url(../Images/hero-bg.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  /* hero style end */
+  
+  .hero-form {
+    border: 3px solid navy;
+    background-color: slategray;
+    padding: 20px;
+    width: 500px;
+    color: yellow;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+  }
+  .hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  .hero-form p {
+    margin: 5px 0 15px 0;
+  }
+  .form-input {
+    border: 1px solid mediumaquamarine;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: darkmagenta;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .hero-form label {
+    margin: 0 5px;
+  }
+  .hero-form button {
+    color: whitesmoke;
+    background-color:green;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .intro {
+    text-align: center;
+  }
+  .intro p {
+    line-height: 1.7;
+    color: darkolivegreen;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  .steps {
+    text-align: center;
+    background: darkkhaki;
+  }
+  .steps div {
+    margin-bottom: 80px;
+  }
+  .steps img {
+    width: 15%;
+    margin: 10px 0;
+  }
+  .steps h3 {
+    color: indigo;
+    font-size: 46px;
+    margin-top: 10px;
+  }
+  .steps p {
+    color: navy;
+    font-size: 23px;
+  }
+  .steps span {
+    font-size: 38px;
+  }
+  .section-title {
+    font-size: 55px;
+    color: purple;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+  }
+  .primary-border {
+    border-color: darkslategrey;
+  }
+  .secondary-border {
+    border-color: olivedrab;
+  }
+  .trainers {
+    text-align: center;
+  }
+  .trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: orange;
+    color: black;
+    overflow: auto;
+  }
+  .trainer img {
+    width: 35%;
+    float: left;
+  }
+  .trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+  }
+  .trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  .trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+  .trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-right {
+    text-align: right;
+  }
+  /* reach out styles start */
+  .contact {
+    text-align: center;
+    background: darkslateblue;
+  }
+  .contact h2 {
+    color: yellow;
+  }
+  .contact-info iframe {
+    width: 400px;
+    height: 400px;
+  }
+  .contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: yellowgreen;
+  }
+  .contact-info h3 {
+    color: paleturquoise;
+    font-size: 32px;
+  }
+  .contact-info p,
+  .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+  }
+  .contact-info a {
+    color: lightskyblue;
+  }
+  /* reach out styles end */
+  footer {
+    background: orange;
+    width: 100%;
+    padding: 40px 35px;
+  }
+  footer h2 {
+    display: inline;
+    color: navy;
+    font-size: 30px;
+    margin: 0;
+  }
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+  footer a {
+    color: dodgerblue;
+  }

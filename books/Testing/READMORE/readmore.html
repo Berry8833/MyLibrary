@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .more-text {
+        display: none; /* Initially hidden */
+      }
+      .read-more-btn {
+        background-color: #64968C;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        margin-top: 10px;
+        border-radius: 5px;
+      }
+</style>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.
+        <span class="more-text"> Alias itaque praesentium eum, pariatur consequatur ducimus asperiores accusantium velit minima? This is the additional content that will appear when Read More is clicked.</span>
+      </p>
+      <a class="read-more-btn" onclick="toggleReadMore(this)">Read More</a>
+
+      <script>
+        function toggleReadMore(btn) {
+        const moreText = btn.previousElementSibling.querySelector(".more-text");
+        if (moreText.style.display === "none") {
+          moreText.style.display = "inline";
+          btn.textContent = "Read Less";
+        } else {
+          moreText.style.display = "none";
+          btn.textContent = "Read More";
+        }
+      }
+      </script>
+</body>
+</html>
