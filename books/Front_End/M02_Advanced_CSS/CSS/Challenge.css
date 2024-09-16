@@ -1,0 +1,464 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element selectors */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header style start */
+header {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-image: url(../Images/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 9999;
+}
+
+header h1 a {
+    font-weight: bold;
+    font-size: 35px;
+    color: navy;
+    text-shadow: 0 0 10px cornflowerblue;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+/* Navigation link styles */
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 22px;
+    color: darkslategrey;
+    text-shadow: 0 0 10px hotpink;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: lightcyan;
+    color: olive;
+    border-radius: 10px;
+    text-shadow: none;
+}
+
+/* Responsive styles for mobile view */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center; /* Center the header content */
+    }
+
+    header h1 {
+        margin-bottom: 20px;
+        text-align: center; /* Center the logo */
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: center; /* Center the nav links */
+        text-align: center;  /* Center the text in nav links */
+    }
+
+    header nav ul li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    header nav ul li a {
+        width: 100%;
+        padding: 15px 20px;
+        font-size: 20px;
+    }
+}
+/* Navigation / header end */
+
+/* Student Section Styles start */
+.image-container {
+    position: relative;
+    width: 50%; /* Occupy half of the row */
+    max-width: 400px; /* Ensure a maximum width for consistency */
+    height: auto; /* Allow height to adjust based on content */
+    min-height: 200px; /* Ensure a minimum height for consistency */
+}
+
+.hover-img {
+    width: 100%;
+    height: 100%; /* Ensure image fills the container */
+    object-fit: cover; /* Cover the container without distortion */
+    transition: opacity 0.3s ease;
+}
+
+.img-front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.img-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0; /* Initially hidden */
+}
+
+/* Hover effect to show the back image */
+.image-container:hover .img-front {
+    opacity: 0;
+}
+
+.image-container:hover .img-back {
+    opacity: 1;
+}
+
+/* General student section styling */
+.student {
+    display: flex; /* Align image and text in the same row */
+    align-items: flex-start; /* Align items to the top of the container */
+    justify-content: space-between; /* Space between image and text */
+    padding: 50px;
+    background-image: url(../Images/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Text container styles */
+.text-container {
+    width: 50%; /* Occupy the remaining half of the row */
+    padding-left: 20px; /* Space between image and text */
+    box-sizing: border-box; /* Include padding in the width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+/* Center the h2 tag above the p tag */
+.text-container h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Space between h2 and p */
+}
+
+/* Align the paragraph text to the left */
+.text-container p {
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .student {
+        flex-direction: column; /* Stack image and text vertically on small screens */
+        align-items: center;
+    }
+
+    .image-container {
+        width: 100%;
+        max-width: none; /* Remove maximum width on small screens */
+        height: auto; /* Allow height to adjust on small screens */
+        margin-right: 0;
+        margin-bottom: 20px; /* Space below the image when stacked */
+    }
+
+    .text-container {
+        width: 100%;
+        text-align: center;
+        padding-left: 0; /* Reset padding on small screens */
+    }
+
+    .text-container p {
+        text-align: center; /* Center paragraph text on small screens */
+    }
+}
+/* hero section end */
+
+/* About me section start */
+.section {
+    display: flex;
+    flex-direction: column; /* Stack content vertically on smaller screens */
+    padding: 20px;
+    text-align: left;
+    border: 1px solid lightsteelblue;
+    margin-bottom: 20px;
+    background-color: paleturquoise;
+}
+
+/* Section Title */
+.section-title {
+    flex-shrink: 0;
+    padding-right: 20px;
+    text-align: center; /* Center-align title on smaller screens */
+}
+
+/* Section Content */
+.section-content {
+    border-left: 4px solid #333;
+    padding-left: 20px;
+    flex-grow: 1;
+}
+
+/* Responsive Adjustments */
+@media screen and (min-width: 768px) {
+    /* Section adjustments for larger screens */
+    .section {
+        flex-direction: row; /* Align content side by side on larger screens */
+    }
+
+    /* Section Title */
+    .section-title {
+        min-width: 150px;
+        text-align: left; /* Align title left on larger screens */
+    }
+
+    /* Contact Info */
+    .contact-info {
+        flex-direction: row; /* Align elements side by side on larger screens */
+    }
+
+    .contact-info > * {
+        flex: 1;
+        margin: 15px; /* Space between elements */
+    }
+
+    .contact-info iframe {
+        height: 400px; /* Adjust map height on larger screens */
+    }
+}
+
+/* Work section start */
+.work-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.work-gallery a {
+    margin-bottom: 20px;
+}
+
+.work-gallery img {
+    width: 100%; /* Make images full-width */
+    max-width: 200px; /* Set a max width */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.work-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Contact me section */
+.contact-info {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    margin: 15px 0; /* Add margin between elements */
+    width: 100%; /* Make elements full-width on smaller screens */
+}
+
+.contact-info iframe {
+    height: 300px;
+    width: 100%; /* Make the map full-width on smaller screens */
+}
+
+/* Responsive Adjustments */
+@media screen and (min-width: 768px) {
+    /* Section adjustments for larger screens */
+    .section {
+        flex-direction: row; /* Align content side by side on larger screens */
+    }
+
+    /* Section Title */
+    .section-title {
+        min-width: 150px;
+        text-align: left; /* Align title left on larger screens */
+    }
+
+    /* Contact Info */
+    .contact-info {
+        flex-direction: row; /* Align elements side by side on larger screens */
+    }
+
+    .contact-info > * {
+        flex: 1;
+        margin: 15px; /* Space between elements */
+    }
+
+    .contact-info iframe {
+        height: 400px; /* Adjust map height on larger screens */
+    }
+}
+
+/* Additional Styling */
+#contact {
+    background-color: peachpuff;
+    padding: 25px;
+    margin: 3%;
+    line-height: 2;
+    border-radius: 45px;
+}
+
+.contact {
+    background: magenta;
+}
+
+.contact h2 {
+    color: navy;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid forestgreen;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: navy;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: mistyrose;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: palegreen;
+    outline: none;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: plum;
+    color: azure;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.contact-form button:hover {
+    color: lavender;
+    background: lightgreen;
+}
+
+.section-content nav ul {
+    list-style: none;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .section-title h2 {
+        margin-bottom: 20px; /* Adds space below h2 elements */
+    }
+
+    .student {
+        flex-direction: column; /* Stack image and text vertically on small screens */
+        align-items: center;
+    }
+
+    .image-container {
+        width: 100%;
+        max-width: none; /* Remove maximum width on small screens */
+        height: auto; /* Allow height to adjust on small screens */
+        margin-right: 0;
+        margin-bottom: 20px; /* Space below the image when stacked */
+    }
+
+    .text-container {
+        width: 100%;
+        text-align: center;
+        padding-left: 0; /* Reset padding on small screens */
+    }
+
+    .text-container p {
+        text-align: center; /* Center paragraph text on small screens */
+    }
+
+    .section-content {
+        padding-left: 10px; /* Reduce padding for section content on small screens */
+        padding-right: 10px; /* Add padding-right for balance */
+    }
+
+    .contact-info {
+        flex-direction: column; /* Stack contact info items vertically */
+    }
+
+    .contact-info div {
+        margin-bottom: 20px; /* Space between stacked contact info items */
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 14px; /* Slightly smaller font size on mobile */
+    }
+
+    .contact-form button {
+        font-size: 14px; /* Slightly smaller button text on mobile */
+    }
+}
+
+.contact-info a {
+    color: indigo;
+}
+
+.contact-form a {
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px 30px;
+    text-align: center;
+    background-image: url(../Images/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    text-shadow: 0 0 10px black;
+    border-top: 1px solid violet;
+}
+
+footer h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+footer div {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: lightcyan;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+}
+
+footer a:hover {
+    background-color: lightseagreen;
+}

@@ -1,8 +1,11 @@
+/* Universal selector */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+
+  /* Element selectors */
   body {
     /* more on this crazy alphanumerical value in a minute! */
     color: darkmagenta;

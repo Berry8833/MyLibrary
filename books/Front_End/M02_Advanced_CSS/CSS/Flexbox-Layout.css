@@ -1,0 +1,41 @@
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Element selectors */
+body {
+    font-family: serif;
+    margin: 0;
+}
+main {
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+.main-header {
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background: silver;
+    color: darkgreen;
+}
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+.card header {
+    padding: 20px;
+    background: green;
+    color: white;
+}
+.card img {
+    width: 100%;
+    min-width: 400px;
+}

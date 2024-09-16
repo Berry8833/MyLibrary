@@ -1,0 +1,95 @@
+/* create css variables at the root of the document to be used throughout the style sheet */
+:root {
+    --aqua: aqua;
+    --black: black;
+    --yellow: yellow;
+    /* any value is use repeated */
+    --border-radius: 50px;
+}
+
+/* Element selectors */
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+header {
+    padding: 40px;
+    text-align: center;
+    background-color: var(--black);
+    color: var(--aqua);
+}
+nav {
+    display: flex;
+    background-color: var(--yellow);
+}
+nav a {
+    color: var(--black);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: var(--aqua);
+    color: var(--black);
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Footer Styles */
+footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--black);
+    color: var(--aqua);
+    margin-top: auto;
+}
+.products {
+    flex: 1;
+    background-color: var(--aqua);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    flex: 0 0 300px;
+    transform: rotate(8deg);
+    box-shadow: 10px 10px 5px grey;
+    margin: 20px;
+}
+.card > header {
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    padding: 20px;
+}
+.card > p {
+    text-align: center;
+}
+.card > img {
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    main, nav {
+        flex-direction: column;
+    }
+}

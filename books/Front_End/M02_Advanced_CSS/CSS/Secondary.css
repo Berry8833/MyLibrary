@@ -1,0 +1,37 @@
+/* secondary page styles */
+.hero {
+    background-position: bottom;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.page-title {
+    padding: 0 80px 15px 80px;
+    font-style: 42px;
+    font-weight: 400;
+    font-style: italic;
+    color: navy;
+    display: inline-block;
+    border-bottom: 4px solid navy;
+}
+.secondary-content {
+    width: 80%;
+    margin: 0 auto;
+    color: darkmagenta;
+}
+.secondary-content h3 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+.secondary-content p {
+    font-style: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+.secondary-content ul {
+    margin: 15px 20px;
+}
+.secondary-content li {
+    color: green;
+    margin: 10px 0;
+}
