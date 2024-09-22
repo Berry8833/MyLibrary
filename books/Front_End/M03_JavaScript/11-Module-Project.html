@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tennis Game - SuSu, NuNu & Pupu</title>
+        <link rel="stylesheet" href="./css/module-project.css">
+    </head>
+    <body>
+        <div class="game-layout">
+            <!-- Players' Points Section -->
+            <div class="game-container">
+                <div class="player" id="susu">
+                    <h3>SuSu & Robot</h3>
+                    <p>Points: <span id="susu-points">0</span></p>
+                </div>
+
+                <div class="player" id="nunu">
+                    <h3>NuNu & Robot</h3>
+                    <p>Points: <span id="nunu-points">0</span></p>
+                </div>
+
+                <div class="player" id="pupu">
+                    <h3>Pupu & Robot</h3>
+                    <p>Points: <span id="pupu-points">0</span></p>
+                </div>
+            </div>
+
+            <!-- Marquee Section -->
+            <div class="marquee">
+                <marquee behavior="scroll" direction="left" id="announcement-marquee">
+                    Welcome to the match! SuSu: Quick and agile player! | NuNu: Strong and strategic! | Pupu: Versatile and unpredictable!
+                </marquee>
+            </div>
+
+            <!-- Tennis Court Section -->
+            <div class="tennis-court-section">
+                <!-- Left Player -->
+                <div class="player-side player-left">
+                    <p id="player1">Player 1: </p>
+                </div>
+
+                <!-- Tennis Court -->
+                <div class="tennis-court">
+                    <h2>Tennis Court</h2>
+                </div>
+
+                <!-- Right Player -->
+                <div class="player-side player-right">
+                    <p id="player2">Player 2: </p>
+                </div>
+            </div>
+
+            <!-- Goal Holes Section -->
+            <div class="goal-holes">
+                <div class="goal-hole" id="left-goal">
+                    <p id="resting-player"></p>
+                </div>
+            </div>
+
+            <!-- Controls Section -->
+            <div class="controls">
+                <button id="play-btn">Play</button>
+                <p id="message"></p>
+            </div>
+        </div>
+
+        <script src="./js/module-project.js"></script>
+    </body>
+</html>
