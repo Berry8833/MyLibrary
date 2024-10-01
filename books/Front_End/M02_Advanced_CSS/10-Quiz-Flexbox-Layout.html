@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz with Timer</title>
+    <link rel="stylesheet" href="./CSS/Quiz-Flexbox-Layout.css" />
+  </head>
+  <body>
+    <div id="start-container">
+      <h2>Welcome to Flexbox Layout Quiz!</h2>
+      <input
+        type="text"
+        id="username"
+        placeholder="Enter your name"
+        onfocus="clearPlaceholder(this)"
+      />
+      <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div class="quiz-container" id="quiz-container" style="display: none">
+      <div id="timer">Time Left: <span id="time">25</span> seconds</div>
+      <div id="question"></div>
+      <div class="options"></div>
+      <button id="next-question" onclick="checkAnswer()">Submit</button>
+      <div id="feedback"></div>
+    </div>
+
+    <div id="result-container" style="display: none">
+      <h2>Quiz Result</h2>
+      <div id="result"></div>
+      <button id="test-again" onclick="testAgain()">Test Again</button>
+    </div>
+
+    <script src="./js/Quiz.flexbox-layout.js"></script>
+  </body>
+</html>
