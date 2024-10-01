@@ -7,28 +7,55 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: "HTML ထဲက အဓိက ခေါင်းစဥ် Student Bio ကို ဘယ် tag နဲ့ ရေးပါသလဲ ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag",],
-    answer: "h1 tag",
+    question: "What is the position of the body element set to?",
+    options: ["absolute", "fixed", "relative", "static"],
+    answer: "relative",
   },
-  {
-    question: "Body tag ထဲမှာ Student name နဲ့ contact info ကို ဘယ် tag နဲ့ ရေးပါသလဲ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag"],
-    answer: "h2 tag",
+  { 
+    question: "How much padding is added to the top of the main element?",
+    options: ["50px", "100px", "150px", "200px"],
+    answer: "100px",
   },
-  
-  {
-    question: "Imag မှာ width နဲ့ height ကို သတ်မှတ်ချက် စည်းကမ်းနဲ့ အညီ ထားပေးပါ",
-    options: [ "100", "200", "300", "400",],
-    answer: "200",
+  { 
+    question:  "What is the position of the header element?",
+    options: ["relative", "absolute", "fixed", "static"],
+    answer: "fixed",
   },
-
-  {
-    question: "contact info မှာ ဆက်သွယ်ရမယ့် လိပ်စာကို ဘယ်လို list နဲ့ ရေးထားပါသလဲ?",
-    options: [ "order list", "unorder list",],
-    answer: "unorder list",
+  { 
+    question: "What is the z-index value of the header element?",
+    options: ["1", "2", "3", "4"],
+    answer: "2",
   },
-
+  { 
+    question: "What is the background color of the header element?",
+    options: ["lightseagreen", "mediumseagreen", "olivedrab", "purple"],
+    answer: "lightseagreen",
+  },
+  { 
+    question: "What is the position of #relative-box-2 in Square 1?",
+    options: ["fixed", "absolute", "relative", "static"],
+    answer: "relative",
+  },
+  { 
+    question: "How far from the left is #relative-box-2 offset?",
+    options: ["100px", "200px", "300px", "400px"],
+    answer: "200px",
+  },
+  { 
+    question: "What is the position of #absolute-box-2 in Square 2?",
+    options: ["relative", "absolute", "fixed", "static"],
+    answer: "absolute",
+  },
+  { 
+    question:  "How far from the top is #absolute-box-2 positioned in its parent container?",
+    options: ["0px", "100px", "200px", "300px"],
+    answer: "0px",
+  },
+  { 
+    question: "How far from the left is #absolute-box-2 positioned in its parent container?",
+    options: ["500px", "600px", "700px", "800px"],
+    answer: "700px",
+  },
 
 ];
 

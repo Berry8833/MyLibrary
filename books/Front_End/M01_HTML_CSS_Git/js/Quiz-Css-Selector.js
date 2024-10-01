@@ -7,28 +7,55 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: "HTML ထဲက အဓိက ခေါင်းစဥ် Student Bio ကို ဘယ် tag နဲ့ ရေးပါသလဲ ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag",],
-    answer: "h1 tag",
+    question: "Which selector is used to apply styles to all elements in the document?",
+    options: ["*", "body", "header", ".highlighted-text"],
+    answer: "*",
   },
-  {
-    question: "Body tag ထဲမှာ Student name နဲ့ contact info ကို ဘယ် tag နဲ့ ရေးပါသလဲ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag"],
-    answer: "h2 tag",
+  { 
+    question: "What font family is applied to the entire document?",
+    options:  ["Times New Roman", "Arial, Helvetica, sans-serif", "Verdana", "Courier New"],
+    answer: "Arial, Helvetica, sans-serif",
   },
-  
-  {
-    question: "Imag မှာ width နဲ့ height ကို သတ်မှတ်ချက် စည်းကမ်းနဲ့ အညီ ထားပေးပါ",
-    options: [ "100", "200", "300", "400",],
-    answer: "200",
+  { 
+    question: "What background color is applied to the body element?",
+    options: ["white", "navy", "lightblue", "lightcyan"],
+    answer: "lightblue",
   },
-
-  {
-    question: "contact info မှာ ဆက်သွယ်ရမယ့် လိပ်စာကို ဘယ်လို list နဲ့ ရေးထားပါသလဲ?",
-    options: [ "order list", "unorder list",],
-    answer: "unorder list",
+  { 
+    question: "What is the background color of the header and footer?",
+    options: ["darkseagreen", "lightcyan", "lightblue", "navy"],
+    answer: "navy",
   },
-
+  { 
+    question: "What CSS property makes the text inside elements with the class highlighted-text bold?",
+    options: ["font-family", "font-weight", "line-height", "text-align"],
+    answer: "font-weight",
+  },
+  { 
+    question: "What is the background color of the figure element?",
+    options: ["lightblue", "navy", "lightcyan", "darkseagreen"],
+    answer: "lightcyan",
+  },
+  { 
+    question: "What is the width of the figure element?",
+    options: ["100px", "150px", "180px", "200px"],
+    answer: "180px",
+  },
+  { 
+    question: "Which id selector is used to apply styles to the Contact Information section?",
+    options: ["header", "footer", "#section", ".highlighted-text"],
+    answer:  "#section",
+  },
+  { 
+    question: "What is the background color applied to the section with the id section?",
+    options:  ["navy", "darkseagreen", "lightblue", "lightcyan"],
+    answer: "darkseagreen",
+  },
+  { 
+    question:  "What color is the text inside the header and footer elements?",
+    options: ["black", "white", "blue", "green"],
+    answer:"white" ,
+  },
 
 ];
 

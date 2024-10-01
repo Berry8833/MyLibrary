@@ -7,28 +7,55 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: "HTML ထဲက အဓိက ခေါင်းစဥ် Student Bio ကို ဘယ် tag နဲ့ ရေးပါသလဲ ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag",],
-    answer: "h1 tag",
+    question:  "What is the width of the section element?",
+    options:  ["400px", "500px", "600px", "700px"],
+    answer: "600px",
   },
-  {
-    question: "Body tag ထဲမှာ Student name နဲ့ contact info ကို ဘယ် tag နဲ့ ရေးပါသလဲ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag"],
-    answer: "h2 tag",
+  { 
+    question: "Which property defines the space between the images inside the section?",
+    options: ["padding", "margin", "border", "width"],
+    answer: "margin",
   },
-  
-  {
-    question: "Imag မှာ width နဲ့ height ကို သတ်မှတ်ချက် စည်းကမ်းနဲ့ အညီ ထားပေးပါ",
-    options: [ "100", "200", "300", "400",],
-    answer: "200",
+  { 
+    question: "What is the border color of the section element?",
+    options: ["purple", "plum", "blue", "pink"],
+    answer: "purple",
   },
-
-  {
-    question: "contact info မှာ ဆက်သွယ်ရမယ့် လိပ်စာကို ဘယ်လို list နဲ့ ရေးထားပါသလဲ?",
-    options: [ "order list", "unorder list",],
-    answer: "unorder list",
+  { 
+    question:  "What background color is applied to the images?",
+    options: ["lightblue", "lightcoral", "lightgreen", "plum"],
+    answer: "lightcoral",
   },
-
+  { 
+    question: "What is the border width of the images in pixels?",
+    options: ["9px", "15px", "20px", "25px"],
+    answer: "9px",
+  },
+  { 
+    question: "Which CSS property is used to control the internal spacing inside the image border?",
+    options: ["padding", "margin", "border", "width"],
+    answer: "padding",
+  },
+  { 
+    question: "How many images are displayed inside the section?",
+    options:  ["2", "3", "4", "5"],
+    answer: "4",
+  },
+  { 
+    question: "What is the width and height of each image?",
+    options: ["150px", "200px", "250px", "300px"],
+    answer: "200px",
+  },
+  { 
+    question: "Which CSS property is used to center the content inside the section?",
+    options: ["text-align", "align-items", "justify-content", "display"],
+    answer: "text-align",
+  },
+  { 
+    question: "What type of file is linked to the HTML document for styling?",
+    options:  ["JavaScript file", "HTML file", "CSS file", "Image file"],
+    answer: "CSS file",
+  },
 
 ];
 

@@ -7,28 +7,55 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: "HTML ထဲက အဓိက ခေါင်းစဥ် Student Bio ကို ဘယ် tag နဲ့ ရေးပါသလဲ ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag",],
-    answer: "h1 tag",
+    question: "What is the background color of the body element?",
+    options: ["lavender", "darkmagenta", "silver", "black"],
+    answer:  "lavender",
   },
-  {
-    question: "Body tag ထဲမှာ Student name နဲ့ contact info ကို ဘယ် tag နဲ့ ရေးပါသလဲ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag"],
-    answer: "h2 tag",
+  { 
+    question: "What font family is applied to the .header element?",
+    options:  ["Arial", "'Franklin Gothic Medium'", "Verdana", "Tahoma"],
+    answer: "'Franklin Gothic Medium'",
   },
-  
-  {
-    question: "Imag မှာ width နဲ့ height ကို သတ်မှတ်ချက် စည်းကမ်းနဲ့ အညီ ထားပေးပါ",
-    options: [ "100", "200", "300", "400",],
-    answer: "200",
+  { 
+    question: "What color is the text inside the .header h1 .seo class?",
+    options:  ["yellow", "cyan", "darkgreen", "yellowgreen"],
+    answer: "cyan",
   },
-
-  {
-    question: "contact info မှာ ဆက်သွယ်ရမယ့် လိပ်စာကို ဘယ်လို list နဲ့ ရေးထားပါသလဲ?",
-    options: [ "order list", "unorder list",],
-    answer: "unorder list",
+  { 
+    question: "Which CSS property is used to remove padding and margin for all elements?",
+    options: ["* { padding: 0; margin: 0; }", "* { display: block; }", "p { padding: 0; margin: 0; }", "a { padding: 0; }"],
+    answer: "* { padding: 0; margin: 0; }",
   },
-
+  { 
+    question: "What is the height of the .hero section?",
+    options:  ["500px", "600px", "700px", "800px"],
+    answer: "800px",
+  },
+  { 
+    question: "Which float property is applied to the images inside the .float-left class?",
+    options: ["float: right;", "float: left;", "display: block;", "clear: both;"],
+    answer: "float: left;",
+  },
+  { 
+    question: "What is the maximum width of the images inside the .benefit-lead, .benefit-brand, and .benefit-cost classes?",
+    options: ["100px", "150px", "200px", "250px"],
+    answer: "150px",
+  },
+  { 
+    question: "What is the background color of the .benefits section?",
+    options: ["darkmagenta", "silver", "lavender", "black"],
+    answer: "silver",
+  },
+  { 
+    question: "What color is the text inside the .search-engine-optimization, .online-reputation-management, and .social-media-marketing articles?",
+    options: ["yellowgreen", "cyan", "yellow", "darkgreen"],
+    answer: "yellowgreen",
+  },
+  { 
+    question: "What font family is used in the footer?",
+    options:  ["Verdana", "'Franklin Gothic Medium'", "Arial", "Times New Roman"],
+    answer: "Verdana",
+  },
 
 ];
 

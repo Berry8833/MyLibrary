@@ -6,31 +6,107 @@ let score = 0;
 
 // Example questions array
 let questions = [
-  { 
-    question: "HTML ထဲက အဓိက ခေါင်းစဥ် Student Bio ကို ဘယ် tag နဲ့ ရေးပါသလဲ ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag",],
-    answer: "h1 tag",
-  },
-  {
-    question: "Body tag ထဲမှာ Student name နဲ့ contact info ကို ဘယ် tag နဲ့ ရေးပါသလဲ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag"],
-    answer: "h2 tag",
-  },
-  
-  {
-    question: "Imag မှာ width နဲ့ height ကို သတ်မှတ်ချက် စည်းကမ်းနဲ့ အညီ ထားပေးပါ",
-    options: [ "100", "200", "300", "400",],
-    answer: "200",
-  },
-
-  {
-    question: "contact info မှာ ဆက်သွယ်ရမယ့် လိပ်စာကို ဘယ်လို list နဲ့ ရေးထားပါသလဲ?",
-    options: [ "order list", "unorder list",],
-    answer: "unorder list",
-  },
-
-
-];
+    {
+      "question": "What is the purpose of the form?",
+      "options": [
+        "To register for a training session",
+        "To schedule a consultation with a trainer",
+        "To submit feedback",
+        "To unsubscribe from a newsletter"
+      ],
+      "answer": "To schedule a consultation with a trainer"
+    },
+    {
+      "question": "What information is required for the 'Full Name' field?",
+      "options": [
+        "First name only",
+        "Last name only",
+        "Full name",
+        "Nickname"
+      ],
+      "answer": "Full name"
+    },
+    {
+      "question": "What type of contact information is requested in the form?",
+      "options": [
+        "Email address",
+        "Social media handles",
+        "Physical address",
+        "Username"
+      ],
+      "answer": "Email address"
+    },
+    {
+      "question": "What should be entered in the 'Telephone Number' field?",
+      "options": [
+        "A fax number",
+        "An email address",
+        "A phone number",
+        "A postal code"
+      ],
+      "answer": "A phone number"
+    },
+    {
+      "question": "Is there a question about previous experience with a trainer?",
+      "options": [
+        "Yes",
+        "No",
+        "Not specified",
+        "Only for experienced individuals"
+      ],
+      "answer": "Yes"
+    },
+    {
+      "question": "What age requirement is mentioned in the form?",
+      "options": [
+        "At least 16 years of age",
+        "At least 18 years of age",
+        "At least 21 years of age",
+        "No age requirement"
+      ],
+      "answer": "At least 18 years of age"
+    },
+    {
+      "question": "What happens when the form is submitted?",
+      "options": [
+        "User is redirected to a homepage",
+        "User receives a confirmation email",
+        "A trainer will schedule a consultation",
+        "The form is reset"
+      ],
+      "answer": "A trainer will schedule a consultation"
+    },
+    {
+      "question": "What button text indicates submission of the form?",
+      "options": [
+        "Submit",
+        "GET RUNNING!",
+        "Send",
+        "Start Training"
+      ],
+      "answer": "GET RUNNING!"
+    },
+    {
+      "question": "Are there options for acknowledging previous trainer experience?",
+      "options": [
+        "Yes, with radio buttons",
+        "No options provided",
+        "Only one option",
+        "Checkbox options"
+      ],
+      "answer": "Yes, with radio buttons"
+    },
+    {
+      "question": "What is the color of the 'GET RUNNING!' button?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Yellow"
+      ],
+      "answer": "Green"
+    }
+]
 
 // Function to start the quiz
 function startQuiz() {

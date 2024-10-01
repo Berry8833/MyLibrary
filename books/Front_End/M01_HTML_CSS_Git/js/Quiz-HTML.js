@@ -7,28 +7,63 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: "HTML ထဲက အဓိက ခေါင်းစဥ် Student Bio ကို ဘယ် tag နဲ့ ရေးပါသလဲ ?",
+    question: "Which tag is used to write the main heading 'Student Bio' in HTML?",
     options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag",],
     answer: "h1 tag",
   },
   {
-    question: "Body tag ထဲမှာ Student name နဲ့ contact info ကို ဘယ် tag နဲ့ ရေးပါသလဲ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag"],
-    answer: "h2 tag",
+    question: "Which attribute is used to display the student image in the Bio section?",
+    options:  ["alt", "src", "style", "class"],
+    answer: "src",
   },
   
   {
-    question: "Imag မှာ width နဲ့ height ကို သတ်မှတ်ချက် စည်းကမ်းနဲ့ အညီ ထားပေးပါ",
-    options: [ "100", "200", "300", "400",],
-    answer: "200",
+    question: "Which attribute is used to display the email link?",
+    options: ["href", "alt", "src", "mailto"],
+    answer: "href",
   },
 
   {
-    question: "contact info မှာ ဆက်သွယ်ရမယ့် လိပ်စာကို ဘယ်လို list နဲ့ ရေးထားပါသလဲ?",
-    options: [ "order list", "unorder list",],
-    answer: "unorder list",
+    question: "What width is set for the student image in the Student Bio page?",
+    options:  ["200px", "300px", "400px", "500px"],
+    answer: "300px",
   },
 
+  {
+    question: "Which tag is used to display the GitHub link?",
+    options:   ["ul tag", "ol tag", "a tag", "li tag"],
+    answer: "a tag",
+  },
+
+  {
+    question: "What type of list is used to display the Contact Info?",
+    options:  ["Ordered list", "Unordered list"],
+    answer: "Unordered list",
+  },
+
+  {
+    question: "What attribute is used for the Portfolio link?",
+    options:  ["href='#'", "src='./portfolio.html'", "alt='Portfolio'", "link='#'"],
+    answer: "href='#'",
+  },
+
+  {
+    question: "What is the main function of the Meta viewport?",
+    options:  ["Makes the layout responsive", "Changes image size", "Changes font size", "Changes color"],
+    answer: "Makes the layout responsive",
+  },
+
+  {
+    question: "Which tag is used to display the Lorem ipsum paragraph in the Bio section?",
+    options:  ["p tag", "div tag", "section tag", "span tag"],
+    answer: "p tag",
+  },
+
+  {
+    question: "Which tag is used to display both the GitHub link and the Portfolio link?",
+    options:   ["li tag", "a tag", "p tag", "h2 tag"],
+    answer:"a tag" ,
+  },
 
 ];
 

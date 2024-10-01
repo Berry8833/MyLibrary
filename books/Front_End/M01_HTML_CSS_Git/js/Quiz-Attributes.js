@@ -7,28 +7,55 @@ let score = 0;
 // Example questions array
 let questions = [
   { 
-    question: "HTML ထဲက အဓိက ခေါင်းစဥ် Student Bio ကို ဘယ် tag နဲ့ ရေးပါသလဲ ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag",],
-    answer: "h1 tag",
+    question: "Which class is used to style the main heading 'Student Bio'?",
+    options: ["header", "section", "nav", "footer"],
+    answer: "header",
   },
-  {
-    question: "Body tag ထဲမှာ Student name နဲ့ contact info ကို ဘယ် tag နဲ့ ရေးပါသလဲ?",
-    options: ["h1 tag", "h2 tag", "h3 tag", "h4 tag"],
-    answer: "h2 tag",
+  { 
+    question: "What is the color of the text in the elements with the class 'header'?",
+    options:  ["blue", "navy", "black", "red"],
+    answer: "navy",
   },
-  
-  {
-    question: "Imag မှာ width နဲ့ height ကို သတ်မှတ်ချက် စည်းကမ်းနဲ့ အညီ ထားပေးပါ",
-    options: [ "100", "200", "300", "400",],
-    answer: "200",
+  { 
+    question: "What is the background color of the sections with the class 'section'?",
+    options: ["white", "lightblue", "lightgreen", "yellow"],
+    answer:  "lightblue",
   },
-
-  {
-    question: "contact info မှာ ဆက်သွယ်ရမယ့် လိပ်စာကို ဘယ်လို list နဲ့ ရေးထားပါသလဲ?",
-    options: [ "order list", "unorder list",],
-    answer: "unorder list",
+  { 
+    question: "What background color is applied to the email list item with the id 'Email'?",
+    options:  ["bisque", "palegoldenrod", "khaki", "lightblue"],
+    answer: "bisque",
   },
-
+  { 
+    question: "Which tag contains the student image?",
+    options: ["img tag", "div tag", "header tag", "section tag"],
+    answer:  "img tag",
+  },
+  { 
+    question: "Which CSS file is linked in the HTML document to style the page?",
+    options: ["Attributes.css", "Styles.css", "Main.css", "Design.css"],
+    answer:  "Attributes.css",
+  },
+  { 
+    question: "What is the width of the image in the 'Bio' section?",
+    options:  ["200px", "250px", "300px", "350px"],
+    answer: "300px",
+  },
+  { 
+    question:  "What background color is applied to the GitHub list item with the id 'GitHub'?",
+    options: ["bisque", "palegoldenrod", "khaki", "lightblue"],
+    answer: "palegoldenrod",
+  },
+  { 
+    question: "Which HTML tag is used to create an unordered list of contact information?",
+    options: ["ol", "ul", "li", "a"],
+    answer: "ul",
+  },
+  { 
+    question: "What background color is applied to the Portfolio list item with the id 'Portfolio'?",
+    options:["bisque", "palegoldenrod", "khaki", "lightblue"],
+    answer: "khaki",
+  },
 
 ];
 
