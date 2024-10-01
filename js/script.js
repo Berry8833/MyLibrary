@@ -31,7 +31,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "07-Challenge.html",
         "08-Module-Project.html",
         "09-Recordings.html",
-        "10-Quiz.html",
+        "10-Quiz-Attributes.html",
+        "10-Quiz-BoxModel.html",
+        "10-Quiz-Challenge.html",
+        "10-Quiz-Css-Positioning.html",
+        "10-Quiz-Css-Selector.html",
+        "10-Quiz-Module-Project.html"
       ],
       M02_Advanced_CSS: [
         "01-Wireframing.html",
@@ -43,8 +48,13 @@ document.addEventListener("DOMContentLoaded", () => {
         "07-Challenge.html",
         "08-Module-Project.html",
         "09-Recordings.html",
-        "10-Quiz.html",
-        "Privacy-policy.html"
+        "10-Quiz-Challenge.html",
+        "10-Quiz-Css-Variables.html",
+        "10-Quiz-Flexbox-Layout.html",
+        "10-Quiz-Module-Project.html",
+        "10-Quiz-Pseudo-Class.html",
+        "10-Quiz-Responsive-Design.html",
+        "Privacy-policy.html",
       ],
       M03_JavaScript: [
         "01-Conditional-Statement.html",
@@ -59,7 +69,16 @@ document.addEventListener("DOMContentLoaded", () => {
         "10-Log-Nums.html",
         "11-Module-Project.html",
         "12-Quiz.html",
-        "Recording.html"
+        "12-Quiz-arithmetic.html",
+        "12-Quiz-challenge.html",
+        "12-Quiz-conditional-statement.html",
+        "12-Quiz-function.html",
+        "12-Quiz-iteration.html",
+        "12-Quiz-log-nums.html",
+        "12-Quiz-module-project.html",
+        "12-Quiz-odd-or-even.html",
+        "12-Quiz-scope.html",
+        "13-Recording.html",
       ],
       M04_Web_APIs: [
         "01-Create-Append.html",
@@ -73,8 +92,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "09-Countdown.html",
         "10-Sum-Array.html",
         "11-Module-Project.html",
-        "12-Recording.html",
-        "13-Quiz.html"
       ],
       M05_Third_Party_APIs: [
         "01-Click-Events.html",
