@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz with Timer</title>
-    <link rel="stylesheet" href="../../../css/quiz.css" />
+    <link rel="stylesheet" href="./css/Quiz-data-attributes.css" />
   </head>
   <body>
     <div id="start-container">
-      <h2>Welcome to the Quiz!</h2>
+      <h2>Welcome to Data Attributes Quiz!</h2>
       <input
         type="text"
         id="username"
@@ -19,7 +19,7 @@
     </div>
 
     <div class="quiz-container" id="quiz-container" style="display: none">
-      <div id="timer">Time Left: <span id="time">36</span> seconds</div>
+      <div id="timer">Time Left: <span id="time">25</span> seconds</div>
       <div id="question"></div>
       <div class="options"></div>
       <button id="next-question" onclick="checkAnswer()">Submit</button>
@@ -32,26 +32,6 @@
       <button id="test-again" onclick="testAgain()">Test Again</button>
     </div>
 
-    <!-- Store questions in a script tag with type="application/json" -->
-  <script id="questions-data" type="application/json">
-    [
-      {
-        "question": "What is the capital of France?",
-        "options": ["Paris", "Berlin", "Rome", "Madrid"],
-        "answer": "Paris"
-      },
-      {
-        "question": "Which planet is known as the Red Planet?",
-        "options": ["Mars", "Earth", "Jupiter", "Saturn"],
-        "answer": "Mars"
-      },
-      {
-        "question": "What is the largest ocean on Earth?",
-        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-        "answer": "Pacific Ocean"
-      }
-    ]
-  </script>
-    <script src="../../../js/quiz.js"></script>
+    <script src="./js/Quiz-data-attributes.js"></script>
   </body>
 </html>
