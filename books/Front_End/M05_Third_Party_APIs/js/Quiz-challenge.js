@@ -7,55 +7,55 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the `sumArray` function in this code?",
-        "options": ["To find the largest number in an array", "To sum all the numbers in an array", "To return the smallest number in an array", "To count the number of elements in the array"],
-        "answer": "To sum all the numbers in an array"
+        "question": "What is the purpose of the <textarea> element inside each time block in the Workday Schedule?",
+        "options": ["To display the current time", "To allow users to input their tasks", "To show the hour of the day", "To display saved tasks from localStorage"],
+        "answer": "To allow users to input their tasks"
     },
     {
-        "question": "What is the initial value of the `sum` variable in the `sumArray` function?",
-        "options": ["0", "The first element of the array", "1", "The length of the array"],
-        "answer": "0"
+        "question": "What CSS property is used to give the buttons a smooth transition effect when hovering over them?",
+        "options": ["background-color", "transition", "box-shadow", "padding"],
+        "answer": "transition"
     },
     {
-        "question": "How does the `sumArray` function calculate the total sum of the array?",
-        "options": ["It multiplies all the numbers in the array", "It adds each number in the array to a running total (`sum`)", "It subtracts each number from the sum", "It counts how many numbers are in the array"],
-        "answer": "It adds each number in the array to a running total (`sum`)"
+        "question": "In the CSS, what background color is assigned to the time blocks that represent the current hour?",
+        "options": ["#ddd", "#5bc0de", "#198754", "#fd7e14"],
+        "answer": "#5bc0de"
     },
     {
-        "question": "Which method is used to iterate through the array in the `sumArray` function?",
-        "options": ["forEach", "for loop", "while loop", "map"],
-        "answer": "for loop"
+        "question": "How does the JavaScript code determine the current time to compare with the time blocks?",
+        "options": ["By using today.getMinutes()", "By using new Date().getHours()", "By reading the user’s input", "By accessing the localStorage"],
+        "answer": "By using new Date().getHours()"
     },
     {
-        "question": "What will `sumArray([3, 1, 5, 6])` return when logged to the console?",
-        "options": ["10", "15", "5", "20"],
-        "answer": "15"
+        "question": "What does the updateTimeBlocks() function do?",
+        "options": ["It updates the current day in the header", "It changes the color of the time blocks based on the current time", "It saves tasks to localStorage", "It deletes tasks from localStorage"],
+        "answer": "It changes the color of the time blocks based on the current time"
     },
     {
-        "question": "In the `sumArray` function, what does `arr.length` represent?",
-        "options": ["The sum of the numbers in the array", "The number of elements in the array", "The first element in the array", "The last element in the array"],
-        "answer": "The number of elements in the array"
+        "question": "What event triggers saving a task to localStorage in the provided JavaScript code?",
+        "options": ["Clicking the deleteBtn", "Clicking the saveBtn", "Typing in the textarea", "Opening the web page"],
+        "answer": "Clicking the saveBtn"
     },
     {
-        "question": "What library is used in this code for testing the `sumArray` function?",
-        "options": ["Jasmine", "Mocha and Chai", "Jest", "JUnit"],
-        "answer": "Mocha and Chai"
+        "question": "What does the deleteBtn do in each time block?",
+        "options": ["It saves the task", "It deletes the entire time block", "It clears the task from the textarea and removes it from localStorage", "It refreshes the web page"],
+        "answer": "It clears the task from the textarea and removes it from localStorage"
     },
     {
-        "question": "In the test case, what is expected when passing `[4, 8, 15, 16, 23, 42]` to `sumArray`?",
-        "options": ["108", "99", "42", "50"],
-        "answer": "108"
+        "question": "How are saved tasks retrieved from localStorage when the page loads?",
+        "options": ["By calling a function that loads tasks into a modal", "By querying localStorage.getItem() for each time block", "By fetching data from an external API", "By using the saveBtn"],
+        "answer": "By querying localStorage.getItem() for each time block"
     },
     {
-        "question": "Which testing framework is responsible for setting up the test environment in this code?",
-        "options": ["Chai", "Mocha", "QUnit", "Cypress"],
-        "answer": "Mocha"
+        "question": "How is the layout of the time blocks changed in the responsive design for mobile view?",
+        "options": ["The time blocks are hidden", "The time blocks stack vertically with aligned text", "The time blocks increase in size", "The time blocks remain unchanged"],
+        "answer": "The time blocks stack vertically with aligned text"
     },
     {
-        "question": "What assertion style is used in this test to compare the result of the `sumArray` function?",
-        "options": ["expect(result).to.eql()", "assert(result).equal()", "should(result).equal()", "expect(result).to.be.true()"],
-        "answer": "expect(result).to.eql()"
-    }    
+        "question": "Which HTML element is used to display the current day at the top of the Workday Schedule?",
+        "options": ["<h1>", "<p id='currentDay'>", "<textarea>", "<header>"],
+        "answer": "<p id='currentDay'>"
+    }
 ];
 
 // Function to start the quiz

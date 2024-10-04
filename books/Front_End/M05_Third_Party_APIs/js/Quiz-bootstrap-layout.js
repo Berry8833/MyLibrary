@@ -7,55 +7,55 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the `sumArray` function in this code?",
-        "options": ["To find the largest number in an array", "To sum all the numbers in an array", "To return the smallest number in an array", "To count the number of elements in the array"],
-        "answer": "To sum all the numbers in an array"
+        "question": "What framework is used for the layout of this webpage?",
+        "options": ["Materialize", "Foundation", "Bootstrap", "Tailwind"],
+        "answer": "Bootstrap"
     },
     {
-        "question": "What is the initial value of the `sum` variable in the `sumArray` function?",
-        "options": ["0", "The first element of the array", "1", "The length of the array"],
-        "answer": "0"
+        "question": "What is the purpose of the `jumbotron` class in the `header` section?",
+        "options": ["To style the header with a background image", "To create a large banner-like section", "To add navigation links", "To make the header sticky"],
+        "answer": "To create a large banner-like section"
     },
     {
-        "question": "How does the `sumArray` function calculate the total sum of the array?",
-        "options": ["It multiplies all the numbers in the array", "It adds each number in the array to a running total (`sum`)", "It subtracts each number from the sum", "It counts how many numbers are in the array"],
-        "answer": "It adds each number in the array to a running total (`sum`)"
+        "question": "What image is displayed in the first column of the header?",
+        "options": ["A company logo", "A video placeholder", "A background image", "A product image"],
+        "answer": "A video placeholder"
     },
     {
-        "question": "Which method is used to iterate through the array in the `sumArray` function?",
-        "options": ["forEach", "for loop", "while loop", "map"],
-        "answer": "for loop"
+        "question": "What Bootstrap class is used to make images responsive?",
+        "options": ["img-responsive", "img-fluid", "img-block", "img-stretch"],
+        "answer": "img-fluid"
     },
     {
-        "question": "What will `sumArray([3, 1, 5, 6])` return when logged to the console?",
-        "options": ["10", "15", "5", "20"],
-        "answer": "15"
+        "question": "How are the three services arranged in the 'Our Services' section?",
+        "options": ["In a single row with no spacing", "In a column layout", "In cards with equal spacing", "In a grid without spacing"],
+        "answer": "In cards with equal spacing"
     },
     {
-        "question": "In the `sumArray` function, what does `arr.length` represent?",
-        "options": ["The sum of the numbers in the array", "The number of elements in the array", "The first element in the array", "The last element in the array"],
-        "answer": "The number of elements in the array"
+        "question": "What happens when the 'Learn more' button in each service card is clicked?",
+        "options": ["It opens a new page", "It scrolls to a new section", "It displays more information about the service", "No specific action is defined"],
+        "answer": "No specific action is defined"
     },
     {
-        "question": "What library is used in this code for testing the `sumArray` function?",
-        "options": ["Jasmine", "Mocha and Chai", "Jest", "JUnit"],
-        "answer": "Mocha and Chai"
+        "question": "In the 'About Us' section, what is the main purpose of the text?",
+        "options": ["To introduce the company's history", "To describe the services offered", "To provide information about the company", "To show user testimonials"],
+        "answer": "To provide information about the company"
     },
     {
-        "question": "In the test case, what is expected when passing `[4, 8, 15, 16, 23, 42]` to `sumArray`?",
-        "options": ["108", "99", "42", "50"],
-        "answer": "108"
+        "question": "What information can be found in the 'Cool Company, Inc.' section?",
+        "options": ["Company's social media links", "Company's phone number and email address", "Company's address", "Company's service locations"],
+        "answer": "Company's phone number and email address"
     },
     {
-        "question": "Which testing framework is responsible for setting up the test environment in this code?",
-        "options": ["Chai", "Mocha", "QUnit", "Cypress"],
-        "answer": "Mocha"
+        "question": "In the 'Leave a Comment' form, what input fields are provided?",
+        "options": ["Name and email", "Name and message", "Phone number and email", "Message and subject"],
+        "answer": "Name and message"
     },
     {
-        "question": "What assertion style is used in this test to compare the result of the `sumArray` function?",
-        "options": ["expect(result).to.eql()", "assert(result).equal()", "should(result).equal()", "expect(result).to.be.true()"],
-        "answer": "expect(result).to.eql()"
-    }    
+        "question": "What class is used for the submit button in the 'Leave a Comment' form?",
+        "options": ["btn-primary", "btn-info", "btn-danger", "btn-success"],
+        "answer": "btn-success"
+    }           
 ];
 
 // Function to start the quiz

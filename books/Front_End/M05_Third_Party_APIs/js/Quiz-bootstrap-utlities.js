@@ -7,55 +7,55 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the `sumArray` function in this code?",
-        "options": ["To find the largest number in an array", "To sum all the numbers in an array", "To return the smallest number in an array", "To count the number of elements in the array"],
-        "answer": "To sum all the numbers in an array"
+        "question": "What is the primary Bootstrap utility class used to center the content vertically within the viewport?",
+        "options": ["align-items-center", "justify-content-center", "d-flex", "w-100"],
+        "answer": "align-items-center"
     },
     {
-        "question": "What is the initial value of the `sum` variable in the `sumArray` function?",
-        "options": ["0", "The first element of the array", "1", "The length of the array"],
-        "answer": "0"
+        "question": "What is the purpose of the 'min-vh-100' class used in the div?",
+        "options": ["To set the minimum height to 100px", "To make the div fill the entire viewport height", "To set the minimum width to 100px", "To center the div horizontally"],
+        "answer": "To make the div fill the entire viewport height"
     },
     {
-        "question": "How does the `sumArray` function calculate the total sum of the array?",
-        "options": ["It multiplies all the numbers in the array", "It adds each number in the array to a running total (`sum`)", "It subtracts each number from the sum", "It counts how many numbers are in the array"],
-        "answer": "It adds each number in the array to a running total (`sum`)"
+        "question": "What Bootstrap class is used to round the corners of the form?",
+        "options": ["p-4", "bg-white", "rounded", "my-4"],
+        "answer": "rounded"
     },
     {
-        "question": "Which method is used to iterate through the array in the `sumArray` function?",
-        "options": ["forEach", "for loop", "while loop", "map"],
-        "answer": "for loop"
+        "question": "What Bootstrap class is used to create spacing around the form?",
+        "options": ["p-4", "my-4", "d-flex", "w-100"],
+        "answer": "my-4"
     },
     {
-        "question": "What will `sumArray([3, 1, 5, 6])` return when logged to the console?",
-        "options": ["10", "15", "5", "20"],
-        "answer": "15"
+        "question": "What type of input field is used for the username in the form?",
+        "options": ["email", "text", "password", "checkbox"],
+        "answer": "text"
     },
     {
-        "question": "In the `sumArray` function, what does `arr.length` represent?",
-        "options": ["The sum of the numbers in the array", "The number of elements in the array", "The first element in the array", "The last element in the array"],
-        "answer": "The number of elements in the array"
+        "question": "What type of input field is used for the email in the form?",
+        "options": ["email", "text", "password", "radio"],
+        "answer": "text"
     },
     {
-        "question": "What library is used in this code for testing the `sumArray` function?",
-        "options": ["Jasmine", "Mocha and Chai", "Jest", "JUnit"],
-        "answer": "Mocha and Chai"
+        "question": "What type of input is the password field in the form?",
+        "options": ["text", "password", "email", "checkbox"],
+        "answer": "text"
     },
     {
-        "question": "In the test case, what is expected when passing `[4, 8, 15, 16, 23, 42]` to `sumArray`?",
-        "options": ["108", "99", "42", "50"],
-        "answer": "108"
+        "question": "In the 'Where did you hear about us?' section, what type of form element is used?",
+        "options": ["radio buttons", "text input", "select dropdown", "checkbox"],
+        "answer": "select dropdown"
     },
     {
-        "question": "Which testing framework is responsible for setting up the test environment in this code?",
-        "options": ["Chai", "Mocha", "QUnit", "Cypress"],
-        "answer": "Mocha"
+        "question": "What form input type is used for the 'Sign up for the mailing list' option?",
+        "options": ["text", "checkbox", "radio", "password"],
+        "answer": "checkbox"
     },
     {
-        "question": "What assertion style is used in this test to compare the result of the `sumArray` function?",
-        "options": ["expect(result).to.eql()", "assert(result).equal()", "should(result).equal()", "expect(result).to.be.true()"],
-        "answer": "expect(result).to.eql()"
-    }    
+        "question": "What Bootstrap class is used to make the button fill the entire width of its container?",
+        "options": ["btn-block", "btn-success", "btn-full", "btn-width"],
+        "answer": "btn-block"
+    }               
 ];
 
 // Function to start the quiz
