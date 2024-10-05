@@ -7,54 +7,59 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the vowelCount function?",
-        "options": ["To count vowels in a string", "To count consonants in a string", "To reverse a string", "To find the length of a string"],
-        "answer": "To count vowels in a string"
+        "question": "What is the title of the webpage?",
+        "options": ["Dynamically Generate Elements", "Server-Side APIs", "GitHub API", "User Login"],
+        "answer": "Dynamically Generate Elements"
     },
     {
-        "question": "Which array is used in the vowelCount function to store vowels?",
-        "options": ["['b', 'c', 'd', 'f', 'g']", "['a', 'e', 'i', 'o', 'u']", "['x', 'y', 'z']", "['s', 't', 'r']"],
-        "answer": "['a', 'e', 'i', 'o', 'u']"
+        "question": "What does the 'Click Me' button trigger when clicked?",
+        "options": ["Fetch GitHub users' data", "Open a new page", "Display an alert", "Log out"],
+        "answer": "Fetch GitHub users' data"
     },
     {
-        "question": "What does the indexOf method check in the vowelCount function?",
-        "options": ["It checks if a letter is a vowel", "It checks if a string is empty", "It checks the length of the string", "It checks if a letter is uppercase"],
-        "answer": "It checks if a letter is a vowel"
+        "question": "Which API endpoint is used to fetch GitHub users?",
+        "options": [
+            "https://api.github.com/users",
+            "https://api.github.com/repos",
+            "https://api.github.com/commits",
+            "https://api.github.com/issues"
+        ],
+        "answer": "https://api.github.com/users"
     },
     {
-        "question": "How does the vowelCount function handle uppercase letters?",
-        "options": ["It ignores them", "It converts them to lowercase", "It counts them as consonants", "It removes them from the string"],
-        "answer": "It converts them to lowercase"
+        "question": "How many users are fetched at once in this request?",
+        "options": ["5", "10", "15", "20"],
+        "answer": "5"
     },
     {
-        "question": "What will the vowelCount function return when given an empty string?",
-        "options": ["The number 1", "The number 0", "An error message", "A null value"],
-        "answer": "The number 0"
+        "question": "Which method is used to handle the API response and convert it to JSON format?",
+        "options": [".then(function(response))", "console.log()", "JSON.parse()", ".catch()"],
+        "answer": ".then(function(response))"
     },
     {
-        "question": "How many vowels are expected in the string 'programmer' according to the test?",
-        "options": ["2", "3", "4", "5"],
-        "answer": "3"
+        "question": "What element is created to display the user's login name?",
+        "options": ["h3", "p", "div", "span"],
+        "answer": "h3"
     },
     {
-        "question": "How many vowels are expected in the string 'I think, therefore I am.' according to the test?",
-        "options": ["6", "7", "8", "9"],
-        "answer": "8"
+        "question": "What element is created to display the user's profile URL?",
+        "options": ["p", "h2", "div", "span"],
+        "answer": "p"
     },
     {
-        "question": "What library is used for the assertions in the test cases?",
-        "options": ["Mocha", "Chai", "Jest", "Jasmine"],
-        "answer": "Chai"
+        "question": "Where are the dynamically generated user details appended in the DOM?",
+        "options": ["usersContainer", "fetchButton", "document.body", "card-header"],
+        "answer": "usersContainer"
     },
     {
-        "question": "What testing framework is used to set up the tests for the vowelCount function?",
-        "options": ["Jasmine", "Jest", "Mocha", "QUnit"],
-        "answer": "Mocha"
+        "question": "What does 'data[y].login' refer to in the script?",
+        "options": ["The login name of each GitHub user", "The user's ID", "The user's email", "The user's password"],
+        "answer": "The login name of each GitHub user"
     },
     {
-        "question": "What is the purpose of mocha.run() at the end of the HTML file?",
-        "options": ["To stop the tests", "To define the test cases", "To run the test cases", "To display the test results"],
-        "answer": "To run the test cases"
+        "question": "How is the fetch request triggered in the JavaScript code?",
+        "options": ["By adding an event listener to the button", "Automatically on page load", "On form submission", "On mouse hover"],
+        "answer": "By adding an event listener to the button"
     }
 ];
 

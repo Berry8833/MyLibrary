@@ -7,55 +7,105 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the vowelCount function?",
-        "options": ["To count vowels in a string", "To count consonants in a string", "To reverse a string", "To find the length of a string"],
-        "answer": "To count vowels in a string"
+        "question": "What is the purpose of the `getUserRepos` function in the script?",
+        "options": [
+            "To fetch repositories from GitHub for a specific user",
+            "To display featured repositories based on a programming language",
+            "To alert users if a GitHub username is invalid",
+            "To fetch GitHub issues related to repositories"
+        ],
+        "answer": "To fetch repositories from GitHub for a specific user"
     },
     {
-        "question": "Which array is used in the vowelCount function to store vowels?",
-        "options": ["['b', 'c', 'd', 'f', 'g']", "['a', 'e', 'i', 'o', 'u']", "['x', 'y', 'z']", "['s', 't', 'r']"],
-        "answer": "['a', 'e', 'i', 'o', 'u']"
+        "question": "How does the `formSubmitHandler` function respond when a user submits a GitHub username?",
+        "options": [
+            "It calls the `getUserRepos` function and clears the input field",
+            "It alerts the user to enter a valid username",
+            "It directly displays repositories",
+            "It reloads the page"
+        ],
+        "answer": "It calls the `getUserRepos` function and clears the input field"
     },
     {
-        "question": "What does the indexOf method check in the vowelCount function?",
-        "options": ["It checks if a letter is a vowel", "It checks if a string is empty", "It checks the length of the string", "It checks if a letter is uppercase"],
-        "answer": "It checks if a letter is a vowel"
+        "question": "What API URL does the `getFeaturedRepos` function use to fetch repositories based on a programming language?",
+        "options": [
+            "https://api.github.com/search/repositories?q=language+is:featured",
+            "https://api.github.com/users/language/repos",
+            "https://api.github.com/search/repositories?q=language+featured+issues",
+            "https://api.github.com/search/repositories?q=language+is:featured&sort=help-wanted-issues"
+        ],
+        "answer": "https://api.github.com/search/repositories?q=language+is:featured&sort=help-wanted-issues"
     },
     {
-        "question": "How does the vowelCount function handle uppercase letters?",
-        "options": ["It ignores them", "It converts them to lowercase", "It counts them as consonants", "It removes them from the string"],
-        "answer": "It converts them to lowercase"
+        "question": "What happens if a user enters a valid GitHub username but the API request fails to fetch data?",
+        "options": [
+            "An alert with 'Error: status text' is shown",
+            "The page reloads",
+            "The form input field turns red",
+            "The script does nothing"
+        ],
+        "answer": "An alert with 'Error: status text' is shown"
     },
     {
-        "question": "What will the vowelCount function return when given an empty string?",
-        "options": ["The number 1", "The number 0", "An error message", "A null value"],
-        "answer": "The number 0"
+        "question": "How does the script handle the situation when no repositories are found for a GitHub user or programming language?",
+        "options": [
+            "It shows 'No repositories found.' in the `repos-container` element",
+            "It alerts the user",
+            "It redirects the user to a different page",
+            "It fetches more repositories from other users"
+        ],
+        "answer": "It shows 'No repositories found.' in the `repos-container` element"
     },
     {
-        "question": "How many vowels are expected in the string 'programmer' according to the test?",
-        "options": ["2", "3", "4", "5"],
-        "answer": "3"
+        "question": "What element in the HTML is used to display the repositories found from the GitHub API?",
+        "options": [
+            "The `repos-container` div",
+            "The `language-buttons` div",
+            "The `user-form` element",
+            "The `repo-search-term` span"
+        ],
+        "answer": "The `repos-container` div"
     },
     {
-        "question": "How many vowels are expected in the string 'I think, therefore I am.' according to the test?",
-        "options": ["6", "7", "8", "9"],
-        "answer": "8"
+        "question": "What event listeners are added to the `userFormEl` and `languageButtonsEl` elements in the script?",
+        "options": [
+            "`submit` for `userFormEl` and `click` for `languageButtonsEl`",
+            "`click` for both elements",
+            "`mouseover` for both elements",
+            "`keyup` for both elements"
+        ],
+        "answer": "`submit` for `userFormEl` and `click` for `languageButtonsEl`"
     },
     {
-        "question": "What library is used for the assertions in the test cases?",
-        "options": ["Mocha", "Chai", "Jest", "Jasmine"],
-        "answer": "Chai"
+        "question": "How does the `displayRepos` function differentiate between repositories with open issues and those without?",
+        "options": [
+            "It adds an icon with a red 'x' for open issues and a green checkmark for no issues",
+            "It changes the background color of repositories with open issues",
+            "It hides repositories with no issues",
+            "It alerts the user if a repository has open issues"
+        ],
+        "answer": "It adds an icon with a red 'x' for open issues and a green checkmark for no issues"
     },
     {
-        "question": "What testing framework is used to set up the tests for the vowelCount function?",
-        "options": ["Jasmine", "Jest", "Mocha", "QUnit"],
-        "answer": "Mocha"
+        "question": "What class is added to a repository list item when it is created in the `displayRepos` function?",
+        "options": [
+            "'list-item flex-row justify-space-between align-center'",
+            "'repo-item flex-row justify-space-between'",
+            "'repo-list-item'",
+            "'list-group-item flex-column'"
+        ],
+        "answer": "'list-item flex-row justify-space-between align-center'"
     },
     {
-        "question": "What is the purpose of mocha.run() at the end of the HTML file?",
-        "options": ["To stop the tests", "To define the test cases", "To run the test cases", "To display the test results"],
-        "answer": "To run the test cases"
-    }
+        "question": "What does the `repoEl` element do when a repository is clicked, and how does it use the repository name?",
+        "options": [
+            "It redirects the user to a new page with detailed repository info",
+            "It displays a modal with repository details",
+            "It reloads the page",
+            "It fetches more repositories from the same user"
+        ],
+        "answer": "It redirects the user to a new page with detailed repository info"
+    }    
 ];
 
 // Function to start the quiz

@@ -7,55 +7,105 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the vowelCount function?",
-        "options": ["To count vowels in a string", "To count consonants in a string", "To reverse a string", "To find the length of a string"],
-        "answer": "To count vowels in a string"
+        "question": "What is the purpose of the `formSubmitHandler` function?",
+        "options": [
+            "It listens for form submissions and processes the GitHub username",
+            "It clears the page content when the form is submitted",
+            "It fetches repositories based on programming language",
+            "It updates the text content of the repository container"
+        ],
+        "answer": "It listens for form submissions and processes the GitHub username"
     },
     {
-        "question": "Which array is used in the vowelCount function to store vowels?",
-        "options": ["['b', 'c', 'd', 'f', 'g']", "['a', 'e', 'i', 'o', 'u']", "['x', 'y', 'z']", "['s', 't', 'r']"],
-        "answer": "['a', 'e', 'i', 'o', 'u']"
+        "question": "What does the `buttonClickHandler` function handle?",
+        "options": [
+            "Form submissions",
+            "Button clicks to search repositories by programming language",
+            "Displaying repository issues",
+            "Displaying the username on the webpage"
+        ],
+        "answer": "Button clicks to search repositories by programming language"
     },
     {
-        "question": "What does the indexOf method check in the vowelCount function?",
-        "options": ["It checks if a letter is a vowel", "It checks if a string is empty", "It checks the length of the string", "It checks if a letter is uppercase"],
-        "answer": "It checks if a letter is a vowel"
+        "question": "What is the purpose of the `getUserRepos` function?",
+        "options": [
+            "It sends a GET request to GitHub's API to retrieve repositories of a user",
+            "It displays repository data on the webpage",
+            "It sends a POST request to GitHub's API",
+            "It updates the search term in the UI"
+        ],
+        "answer": "It sends a GET request to GitHub's API to retrieve repositories of a user"
     },
     {
-        "question": "How does the vowelCount function handle uppercase letters?",
-        "options": ["It ignores them", "It converts them to lowercase", "It counts them as consonants", "It removes them from the string"],
-        "answer": "It converts them to lowercase"
+        "question": "What API URL does the `getUserRepos` function use to get repositories of a specific user?",
+        "options": [
+            "'https://api.github.com/repos/' + user",
+            "'https://api.github.com/users/' + user + '/repos'",
+            "'https://api.github.com/search/repositories?q=' + user",
+            "'https://github.com/' + user + '/repos'"
+        ],
+        "answer": "'https://api.github.com/users/' + user + '/repos'"
     },
     {
-        "question": "What will the vowelCount function return when given an empty string?",
-        "options": ["The number 1", "The number 0", "An error message", "A null value"],
-        "answer": "The number 0"
+        "question": "How does the `getFeaturedRepos` function sort repositories?",
+        "options": [
+            "By the number of stars",
+            "By the number of forks",
+            "By the number of help-wanted issues",
+            "By the number of contributors"
+        ],
+        "answer": "By the number of help-wanted issues"
     },
     {
-        "question": "How many vowels are expected in the string 'programmer' according to the test?",
-        "options": ["2", "3", "4", "5"],
-        "answer": "3"
+        "question": "Which element's text content is updated by the `displayRepos` function to show the search term?",
+        "options": [
+            "nameInputEl",
+            "repoSearchTerm",
+            "repoContainerEl",
+            "statusEl"
+        ],
+        "answer": "repoSearchTerm"
     },
     {
-        "question": "How many vowels are expected in the string 'I think, therefore I am.' according to the test?",
-        "options": ["6", "7", "8", "9"],
-        "answer": "8"
+        "question": "What happens when there are no repositories found for the search term?",
+        "options": [
+            "A new search is initiated",
+            "The page reloads",
+            "'No repositories found.' is displayed in the repository container",
+            "An error message is shown"
+        ],
+        "answer": "'No repositories found.' is displayed in the repository container"
     },
     {
-        "question": "What library is used for the assertions in the test cases?",
-        "options": ["Mocha", "Chai", "Jest", "Jasmine"],
-        "answer": "Chai"
+        "question": "How does the `displayRepos` function format the repository name?",
+        "options": [
+            "By combining the repository name and description",
+            "By combining the owner's login and repository name",
+            "By combining the repository language and repository name",
+            "By combining the owner's login and the number of forks"
+        ],
+        "answer": "By combining the owner's login and repository name"
     },
     {
-        "question": "What testing framework is used to set up the tests for the vowelCount function?",
-        "options": ["Jasmine", "Jest", "Mocha", "QUnit"],
-        "answer": "Mocha"
+        "question": "What happens if a repository has open issues?",
+        "options": [
+            "A red icon and the number of issues are displayed",
+            "A green icon and 'No issues' are displayed",
+            "A yellow warning is displayed",
+            "Nothing happens"
+        ],
+        "answer": "A red icon and the number of issues are displayed"
     },
     {
-        "question": "What is the purpose of mocha.run() at the end of the HTML file?",
-        "options": ["To stop the tests", "To define the test cases", "To run the test cases", "To display the test results"],
-        "answer": "To run the test cases"
-    }
+        "question": "Which element is used to add event listeners for language buttons?",
+        "options": [
+            "repoContainerEl",
+            "languageButtonsEl",
+            "userFormEl",
+            "repoSearchTerm"
+        ],
+        "answer": "languageButtonsEl"
+    }          
 ];
 
 // Function to start the quiz

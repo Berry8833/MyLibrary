@@ -7,54 +7,104 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the vowelCount function?",
-        "options": ["To count vowels in a string", "To count consonants in a string", "To reverse a string", "To find the length of a string"],
-        "answer": "To count vowels in a string"
+        "question": "What is the purpose of the `titleCase` function?",
+        "options": [
+            "To convert a string to lowercase",
+            "To convert each word's first letter to uppercase",
+            "To reverse the string",
+            "To remove spaces from the string"
+        ],
+        "answer": "To convert each word's first letter to uppercase"
     },
     {
-        "question": "Which array is used in the vowelCount function to store vowels?",
-        "options": ["['b', 'c', 'd', 'f', 'g']", "['a', 'e', 'i', 'o', 'u']", "['x', 'y', 'z']", "['s', 't', 'r']"],
-        "answer": "['a', 'e', 'i', 'o', 'u']"
+        "question": "What method is used to split the input string into an array of words?",
+        "options": [
+            "split()",
+            "join()",
+            "slice()",
+            "map()"
+        ],
+        "answer": "split()"
     },
     {
-        "question": "What does the indexOf method check in the vowelCount function?",
-        "options": ["It checks if a letter is a vowel", "It checks if a string is empty", "It checks the length of the string", "It checks if a letter is uppercase"],
-        "answer": "It checks if a letter is a vowel"
+        "question": "What does the `split(' ')` function do in this code?",
+        "options": [
+            "It splits the string by commas",
+            "It splits the string into individual letters",
+            "It splits the string into an array of words",
+            "It splits the string into characters"
+        ],
+        "answer": "It splits the string into an array of words"
     },
     {
-        "question": "How does the vowelCount function handle uppercase letters?",
-        "options": ["It ignores them", "It converts them to lowercase", "It counts them as consonants", "It removes them from the string"],
-        "answer": "It converts them to lowercase"
+        "question": "How does the `titleCase` function convert the first letter of each word to uppercase?",
+        "options": [
+            "By using `toLowerCase()`",
+            "By using `slice(1)`",
+            "By modifying the first character with `toUpperCase()`",
+            "By using `concat()`"
+        ],
+        "answer": "By modifying the first character with `toUpperCase()`"
     },
     {
-        "question": "What will the vowelCount function return when given an empty string?",
-        "options": ["The number 1", "The number 0", "An error message", "A null value"],
-        "answer": "The number 0"
+        "question": "Which of the following test cases is included in the provided unit tests?",
+        "options": [
+            "'The Brown Fox' should return 'The brown fox'",
+            "'a christmas carol' should return 'A Christmas Carol'",
+            "'The Lazy Dog' should return 'The Lazy dog'",
+            "'the lazy dog' should return 'the lazy Dog'"
+        ],
+        "answer": "'a christmas carol' should return 'A Christmas Carol'"
     },
     {
-        "question": "How many vowels are expected in the string 'programmer' according to the test?",
-        "options": ["2", "3", "4", "5"],
-        "answer": "3"
-    },
-    {
-        "question": "How many vowels are expected in the string 'I think, therefore I am.' according to the test?",
-        "options": ["6", "7", "8", "9"],
-        "answer": "8"
-    },
-    {
-        "question": "What library is used for the assertions in the test cases?",
-        "options": ["Mocha", "Chai", "Jest", "Jasmine"],
-        "answer": "Chai"
-    },
-    {
-        "question": "What testing framework is used to set up the tests for the vowelCount function?",
-        "options": ["Jasmine", "Jest", "Mocha", "QUnit"],
+        "question": "What testing framework is used in the provided code?",
+        "options": [
+            "Jest",
+            "Mocha",
+            "Jasmine",
+            "QUnit"
+        ],
         "answer": "Mocha"
     },
     {
-        "question": "What is the purpose of mocha.run() at the end of the HTML file?",
-        "options": ["To stop the tests", "To define the test cases", "To run the test cases", "To display the test results"],
-        "answer": "To run the test cases"
+        "question": "What does the `expect(result).to.eql('The Quick Brown Fox Jumped Over The Lazy Dog')` statement do?",
+        "options": [
+            "It checks if the result contains the word 'Fox'",
+            "It compares the actual result with the expected value",
+            "It sets the result to 'The Quick Brown Fox Jumped Over The Lazy Dog'",
+            "It formats the string to match the expected output"
+        ],
+        "answer": "It compares the actual result with the expected value"
+    },
+    {
+        "question": "What is the output of the function when the input is 'the quick brown fox jumped over the lazy dog'?",
+        "options": [
+            "'The quick brown fox jumped over the lazy dog'",
+            "'the Quick brown Fox Jumped Over the Lazy Dog'",
+            "'The Quick Brown Fox Jumped Over The Lazy Dog'",
+            "'the quick brown Fox jumped over the Lazy Dog'"
+        ],
+        "answer": "'The Quick Brown Fox Jumped Over The Lazy Dog'"
+    },
+    {
+        "question": "What happens in the `for` loop inside the `titleCase` function?",
+        "options": [
+            "It splits the string into letters and capitalizes each letter",
+            "It iterates over each word and capitalizes the first letter",
+            "It removes spaces between the words",
+            "It converts the string to lowercase"
+        ],
+        "answer": "It iterates over each word and capitalizes the first letter"
+    },
+    {
+        "question": "What library is used for assertions in the test cases?",
+        "options": [
+            "Mocha",
+            "Jasmine",
+            "Chai",
+            "Jest"
+        ],
+        "answer": "Chai"
     }
 ];
 

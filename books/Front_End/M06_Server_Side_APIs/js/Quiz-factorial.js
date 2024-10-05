@@ -7,54 +7,54 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the vowelCount function?",
-        "options": ["To count vowels in a string", "To count consonants in a string", "To reverse a string", "To find the length of a string"],
-        "answer": "To count vowels in a string"
+        "question": "What is the purpose of the function 'factorial'?",
+        "options": ["To calculate the factorial of a given number", "To add two numbers", "To subtract two numbers", "To divide two numbers"],
+        "answer": "To calculate the factorial of a given number"
     },
     {
-        "question": "Which array is used in the vowelCount function to store vowels?",
-        "options": ["['b', 'c', 'd', 'f', 'g']", "['a', 'e', 'i', 'o', 'u']", "['x', 'y', 'z']", "['s', 't', 'r']"],
-        "answer": "['a', 'e', 'i', 'o', 'u']"
-    },
-    {
-        "question": "What does the indexOf method check in the vowelCount function?",
-        "options": ["It checks if a letter is a vowel", "It checks if a string is empty", "It checks the length of the string", "It checks if a letter is uppercase"],
-        "answer": "It checks if a letter is a vowel"
-    },
-    {
-        "question": "How does the vowelCount function handle uppercase letters?",
-        "options": ["It ignores them", "It converts them to lowercase", "It counts them as consonants", "It removes them from the string"],
-        "answer": "It converts them to lowercase"
-    },
-    {
-        "question": "What will the vowelCount function return when given an empty string?",
-        "options": ["The number 1", "The number 0", "An error message", "A null value"],
-        "answer": "The number 0"
-    },
-    {
-        "question": "How many vowels are expected in the string 'programmer' according to the test?",
-        "options": ["2", "3", "4", "5"],
-        "answer": "3"
-    },
-    {
-        "question": "How many vowels are expected in the string 'I think, therefore I am.' according to the test?",
-        "options": ["6", "7", "8", "9"],
-        "answer": "8"
-    },
-    {
-        "question": "What library is used for the assertions in the test cases?",
-        "options": ["Mocha", "Chai", "Jest", "Jasmine"],
-        "answer": "Chai"
-    },
-    {
-        "question": "What testing framework is used to set up the tests for the vowelCount function?",
-        "options": ["Jasmine", "Jest", "Mocha", "QUnit"],
+        "question": "Which testing framework is being used in this code?",
+        "options": ["Mocha", "Jest", "Jasmine", "QUnit"],
         "answer": "Mocha"
     },
     {
-        "question": "What is the purpose of mocha.run() at the end of the HTML file?",
-        "options": ["To stop the tests", "To define the test cases", "To run the test cases", "To display the test results"],
-        "answer": "To run the test cases"
+        "question": "Which assertion library is used in this script?",
+        "options": ["Chai", "Expect.js", "Should.js", "QUnit"],
+        "answer": "Chai"
+    },
+    {
+        "question": "What does the test expect when the input is 4?",
+        "options": ["24", "16", "12", "4"],
+        "answer": "24"
+    },
+    {
+        "question": "What value does the factorial function return when the input is 0?",
+        "options": ["1", "0", "undefined", "NaN"],
+        "answer": "1"
+    },
+    {
+        "question": "How is the factorial calculated inside the 'factorial' function?",
+        "options": ["Using a loop", "Using recursion", "Using array methods", "Using multiplication of a constant"],
+        "answer": "Using a loop"
+    },
+    {
+        "question": "Which statement sets up Mocha for testing?",
+        "options": ["mocha.setup('bdd')", "mocha.start()", "mocha.run()", "mocha.init()"],
+        "answer": "mocha.setup('bdd')"
+    },
+    {
+        "question": "What does the factorial function return when the input is 1?",
+        "options": ["1", "0", "2", "undefined"],
+        "answer": "1"
+    },
+    {
+        "question": "How does Chai expect the result in the test cases?",
+        "options": [".eql()", ".equal()", ".be()", ".like()"],
+        "answer": ".eql()"
+    },
+    {
+        "question": "What does 'mocha.run()' do in the script?",
+        "options": ["Starts running the tests", "Stops the tests", "Creates the test report", "Sets up Mocha"],
+        "answer": "Starts running the tests"
     }
 ];
 

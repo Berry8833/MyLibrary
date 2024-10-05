@@ -7,54 +7,54 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the vowelCount function?",
-        "options": ["To count vowels in a string", "To count consonants in a string", "To reverse a string", "To find the length of a string"],
-        "answer": "To count vowels in a string"
+        "question": "What is the current temperature in [City Name]?",
+        "options": ["Below 0°C", "0°C - 10°C", "10°C - 20°C", "Above 20°C"],
+        "answer": "Above 20°C"
     },
     {
-        "question": "Which array is used in the vowelCount function to store vowels?",
-        "options": ["['b', 'c', 'd', 'f', 'g']", "['a', 'e', 'i', 'o', 'u']", "['x', 'y', 'z']", "['s', 't', 'r']"],
-        "answer": "['a', 'e', 'i', 'o', 'u']"
+        "question": "What is the forecasted weather condition for tomorrow in [City Name]?",
+        "options": ["Sunny", "Rainy", "Cloudy", "Snowy"],
+        "answer": "Sunny"
     },
     {
-        "question": "What does the indexOf method check in the vowelCount function?",
-        "options": ["It checks if a letter is a vowel", "It checks if a string is empty", "It checks the length of the string", "It checks if a letter is uppercase"],
-        "answer": "It checks if a letter is a vowel"
+        "question": "What is the humidity level in [City Name]?",
+        "options": ["0% - 30%", "31% - 60%", "61% - 80%", "Above 80%"],
+        "answer": "31% - 60%"
     },
     {
-        "question": "How does the vowelCount function handle uppercase letters?",
-        "options": ["It ignores them", "It converts them to lowercase", "It counts them as consonants", "It removes them from the string"],
-        "answer": "It converts them to lowercase"
+        "question": "How fast is the wind blowing in [City Name]?",
+        "options": ["Calm (0 - 5 m/s)", "Moderate (6 - 15 m/s)", "Strong (16 - 25 m/s)", "Very Strong (Above 25 m/s)"],
+        "answer": "Moderate (6 - 15 m/s)"
     },
     {
-        "question": "What will the vowelCount function return when given an empty string?",
-        "options": ["The number 1", "The number 0", "An error message", "A null value"],
-        "answer": "The number 0"
+        "question": "What is the UV index level in [City Name]?",
+        "options": ["Low", "Moderate", "High", "Very High"],
+        "answer": "Moderate"
     },
     {
-        "question": "How many vowels are expected in the string 'programmer' according to the test?",
-        "options": ["2", "3", "4", "5"],
-        "answer": "3"
+        "question": "What is the expected temperature range for the upcoming week in [City Name]?",
+        "options": ["Below 10°C", "10°C - 20°C", "21°C - 30°C", "Above 30°C"],
+        "answer": "21°C - 30°C"
     },
     {
-        "question": "How many vowels are expected in the string 'I think, therefore I am.' according to the test?",
-        "options": ["6", "7", "8", "9"],
-        "answer": "8"
+        "question": "Which day is forecasted to have the highest chance of rain in the next 5 days?",
+        "options": ["Day 1", "Day 2", "Day 3", "Day 4"],
+        "answer": "Day 2"
     },
     {
-        "question": "What library is used for the assertions in the test cases?",
-        "options": ["Mocha", "Chai", "Jest", "Jasmine"],
-        "answer": "Chai"
+        "question": "What weather condition indicates a thunderstorm is likely to occur?",
+        "options": ["Clear Skies", "Cumulonimbus Clouds", "Cirrus Clouds", "Stratus Clouds"],
+        "answer": "Cumulonimbus Clouds"
     },
     {
-        "question": "What testing framework is used to set up the tests for the vowelCount function?",
-        "options": ["Jasmine", "Jest", "Mocha", "QUnit"],
-        "answer": "Mocha"
+        "question": "What is the main reason for seasonal changes in weather?",
+        "options": ["Earth's Rotation", "Earth's Tilt", "Ocean Currents", "Wind Patterns"],
+        "answer": "Earth's Tilt"
     },
     {
-        "question": "What is the purpose of mocha.run() at the end of the HTML file?",
-        "options": ["To stop the tests", "To define the test cases", "To run the test cases", "To display the test results"],
-        "answer": "To run the test cases"
+        "question": "How can one prepare for a heatwave?",
+        "options": ["Stay indoors", "Drink plenty of water", "Wear lightweight clothing", "All of the above"],
+        "answer": "All of the above"
     }
 ];
 

@@ -7,54 +7,54 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the vowelCount function?",
-        "options": ["To count vowels in a string", "To count consonants in a string", "To reverse a string", "To find the length of a string"],
-        "answer": "To count vowels in a string"
+        "question": "What is the title of the webpage?",
+        "options": ["Server-Side APIs", "Create a fetch request", "User Repositories", "Fetch Your User Repos"],
+        "answer": "Server-Side APIs"
     },
     {
-        "question": "Which array is used in the vowelCount function to store vowels?",
-        "options": ["['b', 'c', 'd', 'f', 'g']", "['a', 'e', 'i', 'o', 'u']", "['x', 'y', 'z']", "['s', 't', 'r']"],
-        "answer": "['a', 'e', 'i', 'o', 'u']"
+        "question": "What element does the button in the card body have?",
+        "options": ["text", "link", "id", "class"],
+        "answer": "id"
     },
     {
-        "question": "What does the indexOf method check in the vowelCount function?",
-        "options": ["It checks if a letter is a vowel", "It checks if a string is empty", "It checks the length of the string", "It checks if a letter is uppercase"],
-        "answer": "It checks if a letter is a vowel"
+        "question": "What is the purpose of the fetch request in the script?",
+        "options": ["To fetch user data", "To fetch repository data", "To fetch user settings", "To fetch commit history"],
+        "answer": "To fetch repository data"
     },
     {
-        "question": "How does the vowelCount function handle uppercase letters?",
-        "options": ["It ignores them", "It converts them to lowercase", "It counts them as consonants", "It removes them from the string"],
-        "answer": "It converts them to lowercase"
+        "question": "What URL is used to fetch the user's repositories?",
+        "options": ["https://api.github.com/users/Berry8833/repos", "https://api.github.com/users/repos", "https://api.github.com/user/repos", "https://api.github.com/users/Berry8833"],
+        "answer": "https://api.github.com/users/Berry8833/repos"
     },
     {
-        "question": "What will the vowelCount function return when given an empty string?",
-        "options": ["The number 1", "The number 0", "An error message", "A null value"],
-        "answer": "The number 0"
+        "question": "What method is used to make the fetch request?",
+        "options": ["GET", "POST", "PUT", "DELETE"],
+        "answer": "GET"
     },
     {
-        "question": "How many vowels are expected in the string 'programmer' according to the test?",
-        "options": ["2", "3", "4", "5"],
-        "answer": "3"
+        "question": "What happens when the fetch button is clicked?",
+        "options": ["The page reloads", "The user repositories are fetched", "An alert is shown", "Nothing happens"],
+        "answer": "The user repositories are fetched"
     },
     {
-        "question": "How many vowels are expected in the string 'I think, therefore I am.' according to the test?",
-        "options": ["6", "7", "8", "9"],
-        "answer": "8"
+        "question": "Where are the fetched repository URLs displayed?",
+        "options": ["In the header", "In a list", "In a paragraph", "In a modal"],
+        "answer": "In a list"
     },
     {
-        "question": "What library is used for the assertions in the test cases?",
-        "options": ["Mocha", "Chai", "Jest", "Jasmine"],
-        "answer": "Chai"
+        "question": "What is the class name for the main card element?",
+        "options": ["card", "card-rounded", "bg-white", "text-center"],
+        "answer": "card card-rounded bg-white"
     },
     {
-        "question": "What testing framework is used to set up the tests for the vowelCount function?",
-        "options": ["Jasmine", "Jest", "Mocha", "QUnit"],
-        "answer": "Mocha"
+        "question": "How does the code handle the response from the fetch request?",
+        "options": ["It alerts the user", "It converts it to JSON", "It redirects to another page", "It logs the response"],
+        "answer": "It converts it to JSON"
     },
     {
-        "question": "What is the purpose of mocha.run() at the end of the HTML file?",
-        "options": ["To stop the tests", "To define the test cases", "To run the test cases", "To display the test results"],
-        "answer": "To run the test cases"
+        "question": "What element is created for each repository in the list?",
+        "options": ["div", "span", "li", "p"],
+        "answer": "li"
     }
 ];
 

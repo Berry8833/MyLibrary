@@ -6,56 +6,56 @@ let score = 0;
 
 // Example questions array
 let questions = [
-    {
-        "question": "What is the purpose of the <textarea> element inside each time block in the Workday Schedule?",
-        "options": ["To display the current time", "To allow users to input their tasks", "To show the hour of the day", "To display saved tasks from localStorage"],
-        "answer": "To allow users to input their tasks"
-    },
-    {
-        "question": "What CSS property is used to give the buttons a smooth transition effect when hovering over them?",
-        "options": ["background-color", "transition", "box-shadow", "padding"],
-        "answer": "transition"
-    },
-    {
-        "question": "In the CSS, what background color is assigned to the time blocks that represent the current hour?",
-        "options": ["#ddd", "#5bc0de", "#198754", "#fd7e14"],
-        "answer": "#5bc0de"
-    },
-    {
-        "question": "How does the JavaScript code determine the current time to compare with the time blocks?",
-        "options": ["By using today.getMinutes()", "By using new Date().getHours()", "By reading the user’s input", "By accessing the localStorage"],
-        "answer": "By using new Date().getHours()"
-    },
-    {
-        "question": "What does the updateTimeBlocks() function do?",
-        "options": ["It updates the current day in the header", "It changes the color of the time blocks based on the current time", "It saves tasks to localStorage", "It deletes tasks from localStorage"],
-        "answer": "It changes the color of the time blocks based on the current time"
-    },
-    {
-        "question": "What event triggers saving a task to localStorage in the provided JavaScript code?",
-        "options": ["Clicking the deleteBtn", "Clicking the saveBtn", "Typing in the textarea", "Opening the web page"],
-        "answer": "Clicking the saveBtn"
-    },
-    {
-        "question": "What does the deleteBtn do in each time block?",
-        "options": ["It saves the task", "It deletes the entire time block", "It clears the task from the textarea and removes it from localStorage", "It refreshes the web page"],
-        "answer": "It clears the task from the textarea and removes it from localStorage"
-    },
-    {
-        "question": "How are saved tasks retrieved from localStorage when the page loads?",
-        "options": ["By calling a function that loads tasks into a modal", "By querying localStorage.getItem() for each time block", "By fetching data from an external API", "By using the saveBtn"],
-        "answer": "By querying localStorage.getItem() for each time block"
-    },
-    {
-        "question": "How is the layout of the time blocks changed in the responsive design for mobile view?",
-        "options": ["The time blocks are hidden", "The time blocks stack vertically with aligned text", "The time blocks increase in size", "The time blocks remain unchanged"],
-        "answer": "The time blocks stack vertically with aligned text"
-    },
-    {
-        "question": "Which HTML element is used to display the current day at the top of the Workday Schedule?",
-        "options": ["<h1>", "<p id='currentDay'>", "<textarea>", "<header>"],
-        "answer": "<p id='currentDay'>"
-    }
+  {
+    "question": "What is the purpose of the <pre> tag in this HTML document?",
+    "options": ["To display block-level content", "To format text in bold", "To display preformatted text", "To insert an image"],
+    "answer": "To display preformatted text"
+  },
+  {
+    "question": "Which element will display the generated password on the webpage?",
+    "options": ["<h1> element", "<pre> element", "<button> element", "<main> element"],
+    "answer": "<pre> element"
+  },
+  {
+    "question": "What function is used to generate a random character for the password?",
+    "options": ["getPassword()", "randomCharGenerator()", "getPasswordCharacter()", "generatePassword()"],
+    "answer": "getPasswordCharacter()"
+  },
+  {
+    "question": "How does the passwordGenerator() function build a password of a specified length?",
+    "options": ["By generating a string of numbers", "By looping through a set number of iterations", "By concatenating random characters", "By storing values in an array"],
+    "answer": "By concatenating random characters"
+  },
+  {
+    "question": "Which event triggers the password generation process in this code?",
+    "options": ["hover", "click", "submit", "focus"],
+    "answer": "click"
+  },
+  {
+    "question": "What does the Math.random() function do in the getPasswordCharacter() function?",
+    "options": ["Generates a random number between 0 and 1", "Returns a random character from a string", "Generates a random boolean value", "Returns a random letter"],
+    "answer": "Generates a random number between 0 and 1"
+  },
+  {
+    "question": "What is the purpose of $('#password-btn') in the JavaScript code?",
+    "options": ["To style the button", "To select the button element with jQuery", "To create a new button element", "To disable the button"],
+    "answer": "To select the button element with jQuery"
+  },
+  {
+    "question": "How is the generated password displayed on the webpage?",
+    "options": ["By inserting it into the <h2> element", "By updating the innerHTML of the <button>", "By setting the text of the <pre> element", "By writing it to the console"],
+    "answer": "By setting the text of the <pre> element"
+  },
+  {
+    "question": "What does the text() function in jQuery do in the context of this code?",
+    "options": ["It changes the font size", "It retrieves text from an input field", "It sets or gets the text content of the selected element", "It hides the element"],
+    "answer": "It sets or gets the text content of the selected element"
+  },
+  {
+    "question": "What is the significance of the number 15 in the passwordGenerator(15) function call?",
+    "options": ["It sets the length of the generated password", "It sets the maximum value for random numbers", "It is the number of button clicks required", "It specifies the number of special characters in the password"],
+    "answer": "It sets the length of the generated password"
+  }
 ];
 
 // Function to start the quiz

@@ -7,54 +7,64 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the vowelCount function?",
-        "options": ["To count vowels in a string", "To count consonants in a string", "To reverse a string", "To find the length of a string"],
-        "answer": "To count vowels in a string"
+        "question": "What is the title of the webpage?",
+        "options": ["Deconstruct Parameters", "Server-Side APIs", "GitHub Issues", "Open Console"],
+        "answer": "Deconstruct Parameters"
     },
     {
-        "question": "Which array is used in the vowelCount function to store vowels?",
-        "options": ["['b', 'c', 'd', 'f', 'g']", "['a', 'e', 'i', 'o', 'u']", "['x', 'y', 'z']", "['s', 't', 'r']"],
-        "answer": "['a', 'e', 'i', 'o', 'u']"
+        "question": "What HTTP method is used in the fetch request?",
+        "options": ["GET", "POST", "PUT", "DELETE"],
+        "answer": "GET"
     },
     {
-        "question": "What does the indexOf method check in the vowelCount function?",
-        "options": ["It checks if a letter is a vowel", "It checks if a string is empty", "It checks the length of the string", "It checks if a letter is uppercase"],
-        "answer": "It checks if a letter is a vowel"
+        "question": "Which API endpoint is being fetched in the script?",
+        "options": [
+            "https://api.github.com/repos/nodejs/node/issues",
+            "https://api.github.com/repos/nodejs/node/commits",
+            "https://api.github.com/repos/nodejs/node/pulls",
+            "https://api.github.com/repos/github/github/issues"
+        ],
+        "answer": "https://api.github.com/repos/nodejs/node/issues"
     },
     {
-        "question": "How does the vowelCount function handle uppercase letters?",
-        "options": ["It ignores them", "It converts them to lowercase", "It counts them as consonants", "It removes them from the string"],
-        "answer": "It converts them to lowercase"
+        "question": "How many issues are being requested from the GitHub API?",
+        "options": ["5", "10", "20", "15"],
+        "answer": "10"
     },
     {
-        "question": "What will the vowelCount function return when given an empty string?",
-        "options": ["The number 1", "The number 0", "An error message", "A null value"],
-        "answer": "The number 0"
+        "question": "What state of issues is being fetched?",
+        "options": ["open", "closed", "all", "pending"],
+        "answer": "open"
     },
     {
-        "question": "How many vowels are expected in the string 'programmer' according to the test?",
-        "options": ["2", "3", "4", "5"],
-        "answer": "3"
+        "question": "In what order are the issues being sorted?",
+        "options": ["alphabetically", "by creation date", "by popularity", "by number of comments"],
+        "answer": "by creation date"
     },
     {
-        "question": "How many vowels are expected in the string 'I think, therefore I am.' according to the test?",
-        "options": ["6", "7", "8", "9"],
-        "answer": "8"
+        "question": "What direction is used for sorting the issues?",
+        "options": ["asc", "desc", "random", "none"],
+        "answer": "desc"
     },
     {
-        "question": "What library is used for the assertions in the test cases?",
-        "options": ["Mocha", "Chai", "Jest", "Jasmine"],
-        "answer": "Chai"
+        "question": "What is the purpose of the second '.then()' function?",
+        "options": ["To display the fetched data in the console", "To make another API call", "To fetch another set of data", "To log an error"],
+        "answer": "To display the fetched data in the console"
     },
     {
-        "question": "What testing framework is used to set up the tests for the vowelCount function?",
-        "options": ["Jasmine", "Jest", "Mocha", "QUnit"],
-        "answer": "Mocha"
+        "question": "What message does the footer display to users?",
+        "options": [
+            "Navigate to the GitHub Documentation.",
+            "Deconstruct the parameters in the script.",
+            "Open the console in your browser to see the responses!",
+            "View the responses on the screen!"
+        ],
+        "answer": "Open the console in your browser to see the responses!"
     },
     {
-        "question": "What is the purpose of mocha.run() at the end of the HTML file?",
-        "options": ["To stop the tests", "To define the test cases", "To run the test cases", "To display the test results"],
-        "answer": "To run the test cases"
+        "question": "What is the primary purpose of this fetch request?",
+        "options": ["To fetch the latest open issues from the Node.js repository", "To fetch user data", "To log in to GitHub", "To close GitHub issues"],
+        "answer": "To fetch the latest open issues from the Node.js repository"
     }
 ];
 

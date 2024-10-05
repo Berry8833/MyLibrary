@@ -7,55 +7,105 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the vowelCount function?",
-        "options": ["To count vowels in a string", "To count consonants in a string", "To reverse a string", "To find the length of a string"],
-        "answer": "To count vowels in a string"
+        "question": "What is the purpose of the request made to the GitHub API in the provided code?",
+        "options": [
+            "To get repository information",
+            "To get 5 GitHub issues from the 'twitter/chill' repository",
+            "To fetch details about GitHub users",
+            "To fetch repository commits"
+        ],
+        "answer": "To get 5 GitHub issues from the 'twitter/chill' repository"
     },
     {
-        "question": "Which array is used in the vowelCount function to store vowels?",
-        "options": ["['b', 'c', 'd', 'f', 'g']", "['a', 'e', 'i', 'o', 'u']", "['x', 'y', 'z']", "['s', 't', 'r']"],
-        "answer": "['a', 'e', 'i', 'o', 'u']"
+        "question": "Which method is used to send the request to the GitHub API?",
+        "options": [
+            "post()",
+            "put()",
+            "fetch()",
+            "get()"
+        ],
+        "answer": "fetch()"
     },
     {
-        "question": "What does the indexOf method check in the vowelCount function?",
-        "options": ["It checks if a letter is a vowel", "It checks if a string is empty", "It checks the length of the string", "It checks if a letter is uppercase"],
-        "answer": "It checks if a letter is a vowel"
+        "question": "What is the URL of the GitHub API request in the provided code?",
+        "options": [
+            "'https://api.github.com/repos/berry8833/chill/issues?per_page=5'",
+            "'https://api.github.com/repos/twitter/chill/issues?per_page=5'",
+            "'https://api.github.com/issues?per_page=5'",
+            "'https://api.github.com/repos/github/chill/issues?per_page=5'"
+        ],
+        "answer": "'https://api.github.com/repos/twitter/chill/issues?per_page=5'"
     },
     {
-        "question": "How does the vowelCount function handle uppercase letters?",
-        "options": ["It ignores them", "It converts them to lowercase", "It counts them as consonants", "It removes them from the string"],
-        "answer": "It converts them to lowercase"
+        "question": "What does the first `.then()` function do in the code?",
+        "options": [
+            "Logs the issues to the console",
+            "Parses the JSON response into a JavaScript object",
+            "Fetches the user details",
+            "Logs the request URL"
+        ],
+        "answer": "Parses the JSON response into a JavaScript object"
     },
     {
-        "question": "What will the vowelCount function return when given an empty string?",
-        "options": ["The number 1", "The number 0", "An error message", "A null value"],
-        "answer": "The number 0"
+        "question": "What are the two pieces of information logged to the console for each issue?",
+        "options": [
+            "Issue title and creation date",
+            "Issue description and assigned user",
+            "Issue URL and the user's login",
+            "Issue number and the user's email"
+        ],
+        "answer": "Issue URL and the user's login"
     },
     {
-        "question": "How many vowels are expected in the string 'programmer' according to the test?",
-        "options": ["2", "3", "4", "5"],
-        "answer": "3"
+        "question": "How many issues are fetched from the GitHub API in this request?",
+        "options": [
+            "3",
+            "10",
+            "7",
+            "5"
+        ],
+        "answer": "5"
     },
     {
-        "question": "How many vowels are expected in the string 'I think, therefore I am.' according to the test?",
-        "options": ["6", "7", "8", "9"],
-        "answer": "8"
+        "question": "What is logged to the console before the loop begins?",
+        "options": [
+            "'GitHub Repo Issues'",
+            "'GitHub Repo Commits'",
+            "'GitHub Repository Logs'",
+            "'GitHub Issues List'"
+        ],
+        "answer": "'GitHub Repo Issues'"
     },
     {
-        "question": "What library is used for the assertions in the test cases?",
-        "options": ["Mocha", "Chai", "Jest", "Jasmine"],
-        "answer": "Chai"
+        "question": "Which HTML section displays the instruction to open the console in the browser?",
+        "options": [
+            "header",
+            "footer",
+            "main",
+            "section"
+        ],
+        "answer": "footer"
     },
     {
-        "question": "What testing framework is used to set up the tests for the vowelCount function?",
-        "options": ["Jasmine", "Jest", "Mocha", "QUnit"],
-        "answer": "Mocha"
+        "question": "What does the `for` loop do in the JavaScript code?",
+        "options": [
+            "It logs each issue's title to the console",
+            "It iterates through the data array to log each issue's URL and user login",
+            "It sends a new request for each issue in the repository",
+            "It updates the webpage with the list of issues"
+        ],
+        "answer": "It iterates through the data array to log each issue's URL and user login"
     },
     {
-        "question": "What is the purpose of mocha.run() at the end of the HTML file?",
-        "options": ["To stop the tests", "To define the test cases", "To run the test cases", "To display the test results"],
-        "answer": "To run the test cases"
-    }
+        "question": "In which HTML element is the JavaScript file included in this project?",
+        "options": [
+            "The header element",
+            "The section element",
+            "The script element in the body",
+            "The div element"
+        ],
+        "answer": "The script element in the body"
+    }              
 ];
 
 // Function to start the quiz

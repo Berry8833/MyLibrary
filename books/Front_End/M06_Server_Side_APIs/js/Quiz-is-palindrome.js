@@ -7,55 +7,105 @@ let score = 0;
 // Example questions array
 let questions = [
     {
-        "question": "What is the purpose of the vowelCount function?",
-        "options": ["To count vowels in a string", "To count consonants in a string", "To reverse a string", "To find the length of a string"],
-        "answer": "To count vowels in a string"
+        "question": "What does the `isPalindrome` function check for?",
+        "options": [
+            "It checks if a string contains only letters",
+            "It checks if a string is a palindrome",
+            "It checks if a string is an anagram",
+            "It checks if a string has no spaces"
+        ],
+        "answer": "It checks if a string is a palindrome"
     },
     {
-        "question": "Which array is used in the vowelCount function to store vowels?",
-        "options": ["['b', 'c', 'd', 'f', 'g']", "['a', 'e', 'i', 'o', 'u']", "['x', 'y', 'z']", "['s', 't', 'r']"],
-        "answer": "['a', 'e', 'i', 'o', 'u']"
+        "question": "How does the `isPalindrome` function reverse the input string?",
+        "options": [
+            "It uses the `split()`, `reverse()`, and `join()` methods",
+            "It uses a loop to reverse the string",
+            "It uses the `toUpperCase()` method to reverse the string",
+            "It uses recursion to reverse the string"
+        ],
+        "answer": "It uses the `split()`, `reverse()`, and `join()` methods"
     },
     {
-        "question": "What does the indexOf method check in the vowelCount function?",
-        "options": ["It checks if a letter is a vowel", "It checks if a string is empty", "It checks the length of the string", "It checks if a letter is uppercase"],
-        "answer": "It checks if a letter is a vowel"
+        "question": "What value is returned by the `isPalindrome` function if the reversed string matches the original?",
+        "options": [
+            "The function returns false",
+            "The function returns undefined",
+            "The function returns true",
+            "The function returns null"
+        ],
+        "answer": "The function returns true"
     },
     {
-        "question": "How does the vowelCount function handle uppercase letters?",
-        "options": ["It ignores them", "It converts them to lowercase", "It counts them as consonants", "It removes them from the string"],
-        "answer": "It converts them to lowercase"
+        "question": "What is the purpose of the Mocha library in the provided HTML file?",
+        "options": [
+            "To handle animations on the webpage",
+            "To run JavaScript test cases",
+            "To make AJAX requests",
+            "To style the webpage"
+        ],
+        "answer": "To run JavaScript test cases"
     },
     {
-        "question": "What will the vowelCount function return when given an empty string?",
-        "options": ["The number 1", "The number 0", "An error message", "A null value"],
-        "answer": "The number 0"
-    },
-    {
-        "question": "How many vowels are expected in the string 'programmer' according to the test?",
-        "options": ["2", "3", "4", "5"],
-        "answer": "3"
-    },
-    {
-        "question": "How many vowels are expected in the string 'I think, therefore I am.' according to the test?",
-        "options": ["6", "7", "8", "9"],
-        "answer": "8"
-    },
-    {
-        "question": "What library is used for the assertions in the test cases?",
-        "options": ["Mocha", "Chai", "Jest", "Jasmine"],
+        "question": "Which testing framework is used along with Mocha to perform assertions in the tests?",
+        "options": [
+            "Jasmine",
+            "QUnit",
+            "Chai",
+            "Karma"
+        ],
         "answer": "Chai"
     },
     {
-        "question": "What testing framework is used to set up the tests for the vowelCount function?",
-        "options": ["Jasmine", "Jest", "Mocha", "QUnit"],
-        "answer": "Mocha"
+        "question": "What does the first test case in the `describe` block check?",
+        "options": [
+            "It checks if a string is an anagram",
+            "It checks if a string is a palindrome",
+            "It checks if a string contains only letters",
+            "It checks if a string has spaces"
+        ],
+        "answer": "It checks if a string is a palindrome"
     },
     {
-        "question": "What is the purpose of mocha.run() at the end of the HTML file?",
-        "options": ["To stop the tests", "To define the test cases", "To run the test cases", "To display the test results"],
-        "answer": "To run the test cases"
-    }
+        "question": "In the test case where the string is 'radar', what is the expected output of the `isPalindrome` function?",
+        "options": [
+            "false",
+            "true",
+            "undefined",
+            "null"
+        ],
+        "answer": "true"
+    },
+    {
+        "question": "What is being tested in the second test case of the `describe` block?",
+        "options": [
+            "If the string is a palindrome",
+            "If the string contains only letters",
+            "If the string is not a palindrome",
+            "If the string contains numbers"
+        ],
+        "answer": "If the string is not a palindrome"
+    },
+    {
+        "question": "What is the result of calling `isPalindrome` with the string 'engage'?",
+        "options": [
+            "true",
+            "false",
+            "null",
+            "undefined"
+        ],
+        "answer": "false"
+    },
+    {
+        "question": "How is the `expect` function from Chai used in this test?",
+        "options": [
+            "It is used to run the test cases",
+            "It is used to load external libraries",
+            "It is used to assert that the result matches the expected outcome",
+            "It is used to initialize variables"
+        ],
+        "answer": "It is used to assert that the result matches the expected outcome"
+    }      
 ];
 
 // Function to start the quiz
